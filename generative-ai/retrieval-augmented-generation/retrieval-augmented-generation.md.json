@@ -1,0 +1,118 @@
+{
+  "node": {
+    "id": "generative-ai.retrieval-augmented-generation.retrieval-augmented-generation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "generative-ai",
+      "retrieval-augmented-generation"
+    ],
+    "aliases": [
+      "RAG"
+    ]
+  },
+  "links": [
+    {
+      "to": "generative-ai.fundamentals.generative-ai",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "generative-ai.prompt-engineering.prompt-engineering",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "lewis-2020",
+      "type": "paper",
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "authors": [
+        "Lewis",
+        "P. et al."
+      ],
+      "year": 2020,
+      "url": "https://arxiv.org/abs/2005.11401",
+      "verified": false
+    },
+    {
+      "key": "gao-2023",
+      "type": "paper",
+      "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+      "authors": [
+        "Gao",
+        "Y. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2312.10997",
+      "verified": false
+    },
+    {
+      "key": "es-2023",
+      "type": "paper",
+      "title": "RAGAS: Automated Evaluation of Retrieval Augmented Generation",
+      "authors": [
+        "Es",
+        "S. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2309.15217",
+      "verified": false
+    },
+    {
+      "key": "robertson-2009",
+      "type": "paper",
+      "title": "The Probabilistic Relevance Framework: BM25 and Beyond",
+      "authors": [
+        "Robertson",
+        "S.",
+        "Zaragoza",
+        "H."
+      ],
+      "year": 2009,
+      "url": "https://doi.org/10.1561/1500000019",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Retrieval-augmented generation",
+      "anchor": "#why-rag-exists",
+      "definition": "Answering by retrieving relevant documents and giving them to the model as context."
+    },
+    {
+      "term": "Chunk",
+      "anchor": "#the-flow",
+      "definition": "A piece of a document that is embedded and retrieved as a unit."
+    },
+    {
+      "term": "Hybrid search",
+      "anchor": "#improving-retrieval",
+      "definition": "Combining vector similarity with keyword search such as BM25."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why should retrieval be evaluated separately from generation?",
+      "a": "Most failures are retrieval failures, which answer-level metrics hide.",
+      "anchor": "#common-mistakes",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "When is fine-tuning a worse choice than RAG?",
+      "a": "For adding or updating facts; fine-tuning suits style, format or skills.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "retrieval-augmented-generation"
+  }
+}

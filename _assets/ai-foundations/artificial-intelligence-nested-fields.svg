@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560" role="img" aria-labelledby="title desc">
+  <title id="title">Artificial intelligence, machine learning, deep learning and generative AI as nested fields</title>
+  <desc id="desc">Four nested circles. The outer circle is artificial intelligence: computer systems that perform tasks that need human intelligence. Inside it is machine learning: a subset of AI that lets computers learn from experience. Inside that is deep learning: a subset of machine learning that uses neural networks with many layers. The innermost circle is generative AI: a subset of deep learning that generates content such as text, images or code from an input.</desc>
+  <rect x="0" y="0" width="960" height="560" fill="#ffffff"/>
+  <circle cx="270" cy="290" r="250" fill="#fde2e6" stroke="#c2185b" stroke-width="2"/>
+  <circle cx="270" cy="335" r="195" fill="#ffe9d6" stroke="#e65100" stroke-width="2"/>
+  <circle cx="270" cy="380" r="140" fill="#e0e4ff" stroke="#283593" stroke-width="2"/>
+  <circle cx="270" cy="425" r="85" fill="#f1e0ff" stroke="#6a1b9a" stroke-width="2"/>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">
+    <text x="270" y="88" fill="#880e4f">Artificial intelligence</text>
+    <text x="270" y="190" fill="#bf360c">Machine learning</text>
+    <text x="270" y="290" fill="#1a237e">Deep learning</text>
+    <text x="270" y="432" fill="#4a148c">Generative AI</text>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#212121">
+    <rect x="560" y="40" width="380" height="96" rx="10" fill="#fde2e6" stroke="#c2185b"/>
+    <text x="576" y="68" font-weight="bold">Artificial intelligence (AI)</text>
+    <text x="576" y="92">Computer systems that perform tasks</text>
+    <text x="576" y="114">that need human intelligence.</text>
+    <rect x="560" y="160" width="380" height="96" rx="10" fill="#ffe9d6" stroke="#e65100"/>
+    <text x="576" y="188" font-weight="bold">Machine learning (ML)</text>
+    <text x="576" y="212">A subset of AI: computers learn from</text>
+    <text x="576" y="234">experience (data) instead of explicit rules.</text>
+    <rect x="560" y="280" width="380" height="96" rx="10" fill="#e0e4ff" stroke="#283593"/>
+    <text x="576" y="308" font-weight="bold">Deep learning (DL)</text>
+    <text x="576" y="332">A subset of ML that uses neural networks</text>
+    <text x="576" y="354">with many layers to process data.</text>
+    <rect x="560" y="400" width="380" height="118" rx="10" fill="#f1e0ff" stroke="#6a1b9a"/>
+    <text x="576" y="428" font-weight="bold">Generative AI (GenAI)</text>
+    <text x="576" y="452">A subset of DL that generates content,</text>
+    <text x="576" y="474">such as text, images or code, from an</text>
+    <text x="576" y="496">input (the prompt).</text>
+  </g>
+  <g stroke="#757575" stroke-width="2" stroke-dasharray="6 5" fill="none">
+    <path d="M 420 88 L 560 88"/>
+    <path d="M 400 190 L 560 208"/>
+    <path d="M 380 290 L 560 328"/>
+    <path d="M 340 432 L 560 458"/>
+  </g>
+</svg>

@@ -1,0 +1,98 @@
+{
+  "node": {
+    "id": "machine-learning.model-evaluation.regression-metrics",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "machine-learning",
+      "model-evaluation"
+    ],
+    "aliases": [
+      "RMSE",
+      "MAE"
+    ]
+  },
+  "links": [
+    {
+      "to": "machine-learning.learning-paradigms.supervised-learning",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "machine-learning.model-evaluation.classification-metrics",
+      "rel": "related"
+    },
+    {
+      "to": "machine-learning.optimization.loss-functions",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "hyndman-2021",
+      "type": "book",
+      "title": "Forecasting: Principles and Practice, 3rd edition",
+      "authors": [
+        "Hyndman",
+        "R.",
+        "Athanasopoulos",
+        "G."
+      ],
+      "year": 2021,
+      "url": "https://otexts.com/fpp3/",
+      "verified": false
+    },
+    {
+      "key": "hastie-2009",
+      "type": "book",
+      "title": "The Elements of Statistical Learning, 2nd edition",
+      "authors": [
+        "Hastie",
+        "T.",
+        "Tibshirani",
+        "R.",
+        "Friedman",
+        "J."
+      ],
+      "year": 2009,
+      "url": "https://hastie.su.domains/ElemStatLearn/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "RMSE",
+      "anchor": "#definitions",
+      "definition": "The square root of the mean squared error, in the unit of the target."
+    },
+    {
+      "term": "R squared",
+      "anchor": "#definitions",
+      "definition": "The fraction of the target's variance explained by the model."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "What does a large gap between RMSE and MAE indicate?",
+      "a": "A few large errors dominate the squared metric.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What does R squared of 0 mean?",
+      "a": "The model is as good as always predicting the mean.",
+      "anchor": "#definitions",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "model-evaluation"
+  }
+}

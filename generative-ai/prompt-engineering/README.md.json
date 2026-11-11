@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "generative-ai.prompt-engineering",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "generative-ai",
+      "prompt-engineering"
+    ]
+  },
+  "map": {
+    "group": "prompt-engineering"
+  }
+}

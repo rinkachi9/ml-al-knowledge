@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "natural-language-processing.deep-learning-for-nlp",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "natural-language-processing",
+      "deep-learning-for-nlp"
+    ]
+  },
+  "map": {
+    "group": "deep-learning-for-nlp"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "node": {
+    "id": "agents-and-cognitive-systems.llm-agents.tool-use",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "agents-and-cognitive-systems",
+      "llm-agents"
+    ],
+    "aliases": [
+      "function calling",
+      "MCP"
+    ]
+  },
+  "links": [
+    {
+      "to": "agents-and-cognitive-systems.llm-agents.llm-based-agents",
+      "rel": "part-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "schick-2023",
+      "type": "paper",
+      "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "authors": [
+        "Schick",
+        "T. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2302.04761",
+      "verified": false
+    },
+    {
+      "key": "openai-2025",
+      "type": "documentation",
+      "title": "Function calling",
+      "authors": [
+        "OpenAI"
+      ],
+      "year": 2025,
+      "url": "https://platform.openai.com/docs/guides/function-calling",
+      "verified": false
+    },
+    {
+      "key": "anthropic-2024",
+      "type": "website",
+      "title": "Model Context Protocol",
+      "authors": [
+        "Anthropic"
+      ],
+      "year": 2024,
+      "url": "https://modelcontextprotocol.io/",
+      "verified": false
+    },
+    {
+      "key": "owasp-2025",
+      "type": "standard",
+      "title": "OWASP Top 10 for LLM Applications 2025",
+      "authors": [
+        "OWASP"
+      ],
+      "year": 2025,
+      "url": "https://genai.owasp.org/llm-top-10/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Function calling",
+      "anchor": "#the-pattern",
+      "definition": "The model returns a structured request to call a defined tool."
+    },
+    {
+      "term": "Model Context Protocol",
+      "anchor": "#tool-design",
+      "definition": "A standard for exposing tools and resources to models."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "What is the key principle of tool use?",
+      "a": "The LLM decides what to do; tools execute how. The model only proposes.",
+      "anchor": "#key-principle",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Name two tool design rules.",
+      "a": "One clear purpose per tool, narrow argument types, compact results with actionable errors, safe specific tools.",
+      "anchor": "#tool-design",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "llm-agents"
+  }
+}

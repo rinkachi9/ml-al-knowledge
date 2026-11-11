@@ -1,0 +1,110 @@
+{
+  "node": {
+    "id": "ml-systems.hardware-accelerators.tpu",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 2,
+    "tags": [
+      "ml-systems",
+      "hardware-accelerators"
+    ],
+    "aliases": [
+      "Tensor Processing Unit"
+    ]
+  },
+  "links": [
+    {
+      "to": "ml-systems.compilers-and-runtimes.xla",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "ml-systems.hardware-accelerators.cuda",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "jouppi-2017",
+      "type": "paper",
+      "title": "In-Datacenter Performance Analysis of a Tensor Processing Unit",
+      "authors": [
+        "Jouppi",
+        "N. et al."
+      ],
+      "year": 2017,
+      "url": "https://arxiv.org/abs/1704.04760",
+      "verified": false
+    },
+    {
+      "key": "jouppi-2023",
+      "type": "paper",
+      "title": "TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings",
+      "authors": [
+        "Jouppi",
+        "N. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2304.01433",
+      "verified": false
+    },
+    {
+      "key": "google-2025",
+      "type": "documentation",
+      "title": "Introduction to Cloud TPU",
+      "authors": [
+        "Google Cloud"
+      ],
+      "year": 2025,
+      "url": "https://cloud.google.com/tpu/docs/intro-to-tpu",
+      "verified": false
+    },
+    {
+      "key": "kung-1982",
+      "type": "paper",
+      "title": "Why Systolic Architectures?",
+      "authors": [
+        "Kung",
+        "H. T."
+      ],
+      "year": 1982,
+      "url": "https://doi.org/10.1109/MC.1982.1653825",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Systolic array",
+      "anchor": "#the-systolic-array",
+      "definition": "A grid of multiply-accumulate cells passing data to neighbors each cycle."
+    },
+    {
+      "term": "bfloat16",
+      "anchor": "#system-design",
+      "definition": "A 16-bit float format with the exponent range of 32-bit floats."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "When would you choose GPUs over TPUs?",
+      "a": "For custom kernels, dynamic shapes, frameworks without XLA support or deployment outside Google Cloud.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Compute the peak operations per second of a 128 x 128 MAC array at 1 GHz.",
+      "a": "128 x 128 x 2 x 10^9 = about 32.8 x 10^12 operations per second.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "hardware-accelerators"
+  }
+}

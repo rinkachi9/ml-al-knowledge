@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "robotics.motion-planning-and-control",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "robotics",
+      "motion-planning-and-control"
+    ]
+  },
+  "map": {
+    "group": "motion-planning-and-control"
+  }
+}

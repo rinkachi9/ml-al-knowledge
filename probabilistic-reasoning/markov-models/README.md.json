@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "probabilistic-reasoning.markov-models",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "probabilistic-reasoning",
+      "markov-models"
+    ]
+  },
+  "map": {
+    "group": "markov-models"
+  }
+}

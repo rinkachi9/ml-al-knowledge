@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "agents-and-cognitive-systems.agent-fundamentals",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "agents-and-cognitive-systems",
+      "agent-fundamentals"
+    ]
+  },
+  "map": {
+    "group": "agent-fundamentals"
+  }
+}

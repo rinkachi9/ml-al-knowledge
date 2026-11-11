@@ -1,0 +1,120 @@
+{
+  "node": {
+    "id": "generative-ai.fundamentals.generative-ai",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "generative-ai",
+      "fundamentals"
+    ],
+    "aliases": [
+      "GenAI"
+    ]
+  },
+  "links": [
+    {
+      "to": "ai-foundations.what-is-ai.artificial-intelligence",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "deep-learning.neural-network-fundamentals.neural-networks",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bommasani-2021",
+      "type": "paper",
+      "title": "On the Opportunities and Risks of Foundation Models",
+      "authors": [
+        "Bommasani",
+        "R. et al."
+      ],
+      "year": 2021,
+      "url": "https://arxiv.org/abs/2108.07258",
+      "verified": false
+    },
+    {
+      "key": "goodfellow-2014",
+      "type": "paper",
+      "title": "Generative Adversarial Networks",
+      "authors": [
+        "Goodfellow",
+        "I. et al."
+      ],
+      "year": 2014,
+      "url": "https://arxiv.org/abs/1406.2661",
+      "verified": false
+    },
+    {
+      "key": "ho-2020",
+      "type": "paper",
+      "title": "Denoising Diffusion Probabilistic Models",
+      "authors": [
+        "Ho",
+        "J.",
+        "Jain",
+        "A.",
+        "Abbeel",
+        "P."
+      ],
+      "year": 2020,
+      "url": "https://arxiv.org/abs/2006.11239",
+      "verified": false
+    },
+    {
+      "key": "brown-2020",
+      "type": "paper",
+      "title": "Language Models are Few-Shot Learners",
+      "authors": [
+        "Brown",
+        "T. et al."
+      ],
+      "year": 2020,
+      "url": "https://arxiv.org/abs/2005.14165",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Generative model",
+      "anchor": "#definition",
+      "definition": "A model that learns the data distribution and can sample new examples from it."
+    },
+    {
+      "term": "Discriminative model",
+      "anchor": "#definition",
+      "definition": "A model that learns the probability of a label given an input."
+    },
+    {
+      "term": "Hallucination",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "definition": "Fluent generated content that is false."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "What does a generative model learn that a discriminative model does not?",
+      "a": "The distribution of the data itself, which allows sampling new examples.",
+      "anchor": "#definition",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Name the four stages of the GenAI learning path.",
+      "a": "Terminology, using model APIs, applications, making models your own.",
+      "anchor": "#a-learning-path-for-generative-ai",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "fundamentals"
+  }
+}

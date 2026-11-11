@@ -1,0 +1,122 @@
+{
+  "node": {
+    "id": "machine-learning.learning-paradigms.unsupervised-learning",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "machine-learning",
+      "learning-paradigms"
+    ]
+  },
+  "links": [
+    {
+      "to": "machine-learning.fundamentals.machine-learning",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "machine-learning.learning-paradigms.supervised-learning",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "hastie-2009",
+      "type": "book",
+      "title": "The Elements of Statistical Learning, 2nd edition",
+      "authors": [
+        "Hastie",
+        "T.",
+        "Tibshirani",
+        "R.",
+        "Friedman",
+        "J."
+      ],
+      "year": 2009,
+      "url": "https://hastie.su.domains/ElemStatLearn/",
+      "verified": false
+    },
+    {
+      "key": "ester-1996",
+      "type": "book",
+      "title": "A Density-Based Algorithm for Discovering Clusters in Large Spatial Databases with Noise",
+      "authors": [
+        "Ester",
+        "M.",
+        "Kriegel",
+        "H.-P.",
+        "Sander",
+        "J.",
+        "Xu",
+        "X."
+      ],
+      "year": 1996
+    },
+    {
+      "key": "van-2008",
+      "type": "website",
+      "title": "Visualizing Data using t-SNE",
+      "authors": [
+        "van der Maaten",
+        "L.",
+        "Hinton",
+        "G."
+      ],
+      "year": 2008,
+      "url": "https://www.jmlr.org/papers/v9/vandermaaten08a.html",
+      "verified": false
+    },
+    {
+      "key": "wattenberg-2016",
+      "type": "website",
+      "title": "How to Use t-SNE Effectively",
+      "authors": [
+        "Wattenberg",
+        "M.",
+        "Viégas",
+        "F.",
+        "Johnson",
+        "I."
+      ],
+      "year": 2016,
+      "url": "https://distill.pub/2016/misread-tsne/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Clustering",
+      "anchor": "#tasks-and-algorithms",
+      "definition": "Grouping similar examples without labels."
+    },
+    {
+      "term": "Dimensionality reduction",
+      "anchor": "#tasks-and-algorithms",
+      "definition": "Representing data with fewer variables while keeping its structure."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why must features be standardized before k-means?",
+      "a": "K-means uses distances, so a feature on a large scale would dominate.",
+      "anchor": "#common-mistakes",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What are the two alternating steps of k-means?",
+      "a": "Assign points to the nearest centroid; move centroids to the mean of their points.",
+      "anchor": "#tasks-and-algorithms",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "learning-paradigms"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "probabilistic-reasoning.bayesian-networks",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "probabilistic-reasoning",
+      "bayesian-networks"
+    ]
+  },
+  "map": {
+    "group": "bayesian-networks"
+  }
+}

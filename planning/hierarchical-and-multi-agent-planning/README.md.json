@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "planning.hierarchical-and-multi-agent-planning",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "planning",
+      "hierarchical-and-multi-agent-planning"
+    ]
+  },
+  "map": {
+    "group": "hierarchical-and-multi-agent-planning"
+  }
+}

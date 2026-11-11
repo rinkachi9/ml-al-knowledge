@@ -1,0 +1,105 @@
+{
+  "node": {
+    "id": "agents-and-cognitive-systems.llm-agents.agent-memory",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "agents-and-cognitive-systems",
+      "llm-agents"
+    ]
+  },
+  "links": [
+    {
+      "to": "agents-and-cognitive-systems.llm-agents.llm-based-agents",
+      "rel": "part-of"
+    },
+    {
+      "to": "generative-ai.retrieval-augmented-generation.retrieval-augmented-generation",
+      "rel": "applies"
+    },
+    {
+      "to": "generative-ai.prompt-engineering.multi-turn-conversation-context",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sumers-2023",
+      "type": "paper",
+      "title": "Cognitive Architectures for Language Agents",
+      "authors": [
+        "Sumers",
+        "T. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2309.02427",
+      "verified": false
+    },
+    {
+      "key": "packer-2023",
+      "type": "paper",
+      "title": "MemGPT: Towards LLMs as Operating Systems",
+      "authors": [
+        "Packer",
+        "C. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2310.08560",
+      "verified": false
+    },
+    {
+      "key": "park-2023",
+      "type": "paper",
+      "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+      "authors": [
+        "Park",
+        "J. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2304.03442",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Short-term memory",
+      "anchor": "#memory-models",
+      "definition": "The context window of the current requests."
+    },
+    {
+      "term": "Episodic memory",
+      "anchor": "#memory-models",
+      "definition": "Logs of past actions and their outcomes."
+    },
+    {
+      "term": "Vector database",
+      "anchor": "#memory-models",
+      "definition": "A store of embeddings searched by semantic similarity."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "When is structured memory better than a vector database?",
+      "a": "For exact facts with keys and relations, such as a customer's plan.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "How can memory become an injection channel?",
+      "a": "Untrusted content written to memory carries instructions into later sessions.",
+      "anchor": "#common-mistakes",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "llm-agents"
+  }
+}

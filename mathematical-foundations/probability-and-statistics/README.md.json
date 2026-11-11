@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "mathematical-foundations.probability-and-statistics",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "mathematical-foundations",
+      "probability-and-statistics"
+    ]
+  },
+  "map": {
+    "group": "probability-and-statistics"
+  }
+}

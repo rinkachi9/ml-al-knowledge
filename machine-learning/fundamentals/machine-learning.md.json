@@ -1,0 +1,118 @@
+{
+  "node": {
+    "id": "machine-learning.fundamentals.machine-learning",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "machine-learning",
+      "fundamentals"
+    ],
+    "aliases": [
+      "ML"
+    ]
+  },
+  "links": [
+    {
+      "to": "ai-foundations.what-is-ai.artificial-intelligence",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "ai-foundations.what-is-ai.ai-model",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "mitchell-1997",
+      "type": "book",
+      "title": "Machine Learning",
+      "authors": [
+        "Mitchell",
+        "T."
+      ],
+      "year": 1997
+    },
+    {
+      "key": "hastie-2009",
+      "type": "book",
+      "title": "The Elements of Statistical Learning, 2nd edition",
+      "authors": [
+        "Hastie",
+        "T.",
+        "Tibshirani",
+        "R.",
+        "Friedman",
+        "J."
+      ],
+      "year": 2009,
+      "url": "https://hastie.su.domains/ElemStatLearn/",
+      "verified": false
+    },
+    {
+      "key": "murphy-2022",
+      "type": "book",
+      "title": "Probabilistic Machine Learning: An Introduction",
+      "authors": [
+        "Murphy",
+        "K."
+      ],
+      "year": 2022,
+      "url": "https://probml.github.io/pml-book/book1.html",
+      "verified": false
+    },
+    {
+      "key": "wolpert-1996",
+      "type": "paper",
+      "title": "The Lack of A Priori Distinctions Between Learning Algorithms",
+      "authors": [
+        "Wolpert",
+        "D."
+      ],
+      "year": 1996,
+      "url": "https://doi.org/10.1162/neco.1996.8.7.1341",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Machine learning",
+      "anchor": "#definition",
+      "definition": "A branch of AI in which computers learn to make decisions or predictions from data instead of explicit rules."
+    },
+    {
+      "term": "Generalization",
+      "anchor": "#key-characteristics",
+      "definition": "The ability of a model to perform well on new, unseen data."
+    },
+    {
+      "term": "Inductive bias",
+      "anchor": "#the-no-free-lunch-theorem",
+      "definition": "The assumptions a learning algorithm makes about the target function."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What are E, T and P in Mitchell's definition of learning?",
+      "a": "Experience, the class of tasks, and the performance measure.",
+      "anchor": "#definition",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is data leakage dangerous?",
+      "a": "It produces excellent offline scores from information unavailable at prediction time, so the deployed model fails.",
+      "anchor": "#common-mistakes",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "fundamentals"
+  }
+}

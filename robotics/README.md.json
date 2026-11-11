@@ -1,0 +1,14 @@
+{
+  "node": {
+    "id": "robotics",
+    "kind": "index",
+    "status": "draft",
+    "order": 13,
+    "tags": [
+      "robotics"
+    ]
+  },
+  "map": {
+    "group": "robotics"
+  }
+}

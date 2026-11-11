@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "agents-and-cognitive-systems.human-agent-interaction",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "agents-and-cognitive-systems",
+      "human-agent-interaction"
+    ]
+  },
+  "map": {
+    "group": "human-agent-interaction"
+  }
+}

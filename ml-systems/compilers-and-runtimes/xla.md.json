@@ -1,0 +1,94 @@
+{
+  "node": {
+    "id": "ml-systems.compilers-and-runtimes.xla",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 1,
+    "tags": [
+      "ml-systems",
+      "compilers-and-runtimes"
+    ],
+    "aliases": [
+      "Accelerated Linear Algebra",
+      "OpenXLA"
+    ]
+  },
+  "links": [
+    {
+      "to": "ml-systems.hardware-accelerators.cuda",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "openxla-2025",
+      "type": "documentation",
+      "title": "XLA documentation",
+      "authors": [
+        "OpenXLA"
+      ],
+      "year": 2025,
+      "url": "https://openxla.org/xla",
+      "verified": false
+    },
+    {
+      "key": "jax-2025",
+      "type": "documentation",
+      "title": "Just-in-time compilation",
+      "authors": [
+        "JAX"
+      ],
+      "year": 2025,
+      "url": "https://docs.jax.dev/en/latest/jit-compilation.html",
+      "verified": false
+    },
+    {
+      "key": "xu-2021",
+      "type": "paper",
+      "title": "GSPMD: General and Scalable Parallelization for ML Computation Graphs",
+      "authors": [
+        "Xu",
+        "Y. et al."
+      ],
+      "year": 2021,
+      "url": "https://arxiv.org/abs/2105.04663",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Operator fusion",
+      "anchor": "#key-optimizations",
+      "definition": "Combining several operations into one kernel to avoid intermediate memory traffic."
+    },
+    {
+      "term": "Eager execution",
+      "anchor": "#eager-execution-and-graph-compilation",
+      "definition": "Running each operation immediately as it is called."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why do variable input shapes slow down XLA programs?",
+      "a": "Each new shape triggers a new compilation.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Name XLA's three key optimizations.",
+      "a": "Operator fusion, memory optimization, layout optimization.",
+      "anchor": "#key-optimizations",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "compilers-and-runtimes"
+  }
+}

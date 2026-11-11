@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "ai-security.ml-supply-chain",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "ai-security",
+      "ml-supply-chain"
+    ]
+  },
+  "map": {
+    "group": "ml-supply-chain"
+  }
+}

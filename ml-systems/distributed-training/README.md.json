@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "ml-systems.distributed-training",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "ml-systems",
+      "distributed-training"
+    ]
+  },
+  "map": {
+    "group": "distributed-training"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "node": {
+    "id": "ai-security",
+    "kind": "index",
+    "status": "draft",
+    "order": 15,
+    "tags": [
+      "ai-security"
+    ]
+  },
+  "map": {
+    "group": "ai-security"
+  }
+}

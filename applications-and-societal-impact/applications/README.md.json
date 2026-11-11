@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "applications-and-societal-impact.applications",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "applications-and-societal-impact",
+      "applications"
+    ]
+  },
+  "map": {
+    "group": "applications"
+  }
+}

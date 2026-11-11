@@ -1,0 +1,96 @@
+{
+  "node": {
+    "id": "generative-ai.prompt-engineering.output-formats",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 8,
+    "tags": [
+      "generative-ai",
+      "prompt-engineering"
+    ],
+    "aliases": [
+      "structured output",
+      "output templates"
+    ]
+  },
+  "links": [
+    {
+      "to": "generative-ai.prompt-engineering.prompt-engineering",
+      "rel": "part-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "openai-2024",
+      "type": "website",
+      "title": "Introducing Structured Outputs in the API",
+      "authors": [
+        "OpenAI"
+      ],
+      "year": 2024,
+      "url": "https://openai.com/index/introducing-structured-outputs-in-the-api/",
+      "verified": false
+    },
+    {
+      "key": "willard-2023",
+      "type": "paper",
+      "title": "Efficient Guided Generation for Large Language Models",
+      "authors": [
+        "Willard",
+        "B.",
+        "Louf",
+        "R."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2307.09702",
+      "verified": false
+    },
+    {
+      "key": "json-2022",
+      "type": "standard",
+      "title": "JSON Schema specification, draft 2020-12",
+      "authors": [
+        "JSON Schema"
+      ],
+      "year": 2022,
+      "url": "https://json-schema.org/specification",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Output template",
+      "anchor": "#output-templates",
+      "definition": "A skeleton of the desired output that the model fills in."
+    },
+    {
+      "term": "Constrained decoding",
+      "anchor": "#output-templates",
+      "definition": "Masking tokens that would violate a schema or grammar during generation."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "What is the difference between JSON mode and structured output?",
+      "a": "JSON mode guarantees valid JSON; structured output guarantees the JSON matches a schema.",
+      "anchor": "#output-templates",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why validate schema-valid output?",
+      "a": "The structure is right but the values can still be wrong.",
+      "anchor": "#common-mistakes",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "prompt-engineering"
+  }
+}

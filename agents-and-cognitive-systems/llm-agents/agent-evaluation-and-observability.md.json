@@ -1,0 +1,95 @@
+{
+  "node": {
+    "id": "agents-and-cognitive-systems.llm-agents.agent-evaluation-and-observability",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 6,
+    "tags": [
+      "agents-and-cognitive-systems",
+      "llm-agents"
+    ]
+  },
+  "links": [
+    {
+      "to": "agents-and-cognitive-systems.llm-agents.llm-based-agents",
+      "rel": "part-of"
+    },
+    {
+      "to": "machine-learning.model-evaluation.classification-metrics",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "opentelemetry-2025",
+      "type": "documentation",
+      "title": "Semantic conventions for generative AI systems",
+      "authors": [
+        "OpenTelemetry"
+      ],
+      "year": 2025,
+      "url": "https://opentelemetry.io/docs/specs/semconv/gen-ai/",
+      "verified": false
+    },
+    {
+      "key": "zheng-2023",
+      "type": "paper",
+      "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+      "authors": [
+        "Zheng",
+        "L. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2306.05685",
+      "verified": false
+    },
+    {
+      "key": "yao-2024",
+      "type": "paper",
+      "title": "τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+      "authors": [
+        "Yao",
+        "S. et al."
+      ],
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2406.12045",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Hallucination rate",
+      "anchor": "#evaluation-metrics",
+      "definition": "The share of answers with claims not supported by sources or tool results."
+    },
+    {
+      "term": "LLM as a judge",
+      "anchor": "#how-agents-are-evaluated",
+      "definition": "A model scoring outputs against a rubric."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the three observability signals for agents.",
+      "a": "Traces, logs and metrics.",
+      "anchor": "#observability",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why can a success rate hide a regression?",
+      "a": "The agent may recover from rising tool errors by retrying, at extra cost.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "llm-agents"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "search.state-space-search",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "search",
+      "state-space-search"
+    ]
+  },
+  "map": {
+    "group": "state-space-search"
+  }
+}

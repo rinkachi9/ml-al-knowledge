@@ -1,0 +1,122 @@
+{
+  "node": {
+    "id": "machine-learning.learning-paradigms.reinforcement-learning",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "machine-learning",
+      "learning-paradigms"
+    ],
+    "aliases": [
+      "RL"
+    ]
+  },
+  "links": [
+    {
+      "to": "machine-learning.fundamentals.machine-learning",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "agents-and-cognitive-systems.agent-fundamentals.ai-agent",
+      "rel": "related"
+    },
+    {
+      "to": "machine-learning.learning-paradigms.supervised-learning",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sutton-2018",
+      "type": "book",
+      "title": "Reinforcement Learning: An Introduction, 2nd edition",
+      "authors": [
+        "Sutton",
+        "R.",
+        "Barto",
+        "A."
+      ],
+      "year": 2018,
+      "url": "http://incompleteideas.net/book/the-book-2nd.html",
+      "verified": false
+    },
+    {
+      "key": "mnih-2015",
+      "type": "paper",
+      "title": "Human-level control through deep reinforcement learning",
+      "authors": [
+        "Mnih",
+        "V. et al."
+      ],
+      "year": 2015,
+      "url": "https://doi.org/10.1038/nature14236",
+      "verified": false
+    },
+    {
+      "key": "silver-2016",
+      "type": "paper",
+      "title": "Mastering the game of Go with deep neural networks and tree search",
+      "authors": [
+        "Silver",
+        "D. et al."
+      ],
+      "year": 2016,
+      "url": "https://doi.org/10.1038/nature16961",
+      "verified": false
+    },
+    {
+      "key": "williams-1992",
+      "type": "paper",
+      "title": "Simple statistical gradient-following algorithms for connectionist reinforcement learning",
+      "authors": [
+        "Williams",
+        "R."
+      ],
+      "year": 1992,
+      "url": "https://doi.org/10.1007/BF00992696",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Policy",
+      "anchor": "#definition-and-vocabulary",
+      "definition": "The agent's rule for choosing actions in each state."
+    },
+    {
+      "term": "Discount factor",
+      "anchor": "#definition-and-vocabulary",
+      "definition": "A number between 0 and 1 that makes near rewards worth more than distant ones."
+    },
+    {
+      "term": "Exploration",
+      "anchor": "#exploration-and-exploitation",
+      "definition": "Trying actions whose value is uncertain in order to find better ones."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Write the Q-learning update rule.",
+      "a": "Q(s,a) <- Q(s,a) + alpha [r + gamma max_a' Q(s',a') - Q(s,a)].",
+      "anchor": "#families-of-methods",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What is reward hacking?",
+      "a": "The agent maximizes the literal reward in a way that does not achieve the intended goal.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "learning-paradigms"
+  }
+}

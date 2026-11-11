@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "generative-ai.retrieval-augmented-generation",
+    "kind": "index",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "generative-ai",
+      "retrieval-augmented-generation"
+    ]
+  },
+  "map": {
+    "group": "retrieval-augmented-generation"
+  }
+}

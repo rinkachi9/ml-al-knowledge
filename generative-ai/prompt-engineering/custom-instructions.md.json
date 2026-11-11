@@ -1,0 +1,82 @@
+{
+  "node": {
+    "id": "generative-ai.prompt-engineering.custom-instructions",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "generative-ai",
+      "prompt-engineering"
+    ],
+    "aliases": [
+      "system prompt"
+    ]
+  },
+  "links": [
+    {
+      "to": "generative-ai.prompt-engineering.prompt-engineering",
+      "rel": "part-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "openai-2023",
+      "type": "website",
+      "title": "Custom instructions for ChatGPT",
+      "authors": [
+        "OpenAI"
+      ],
+      "year": 2023,
+      "url": "https://openai.com/index/custom-instructions-for-chatgpt/",
+      "verified": false
+    },
+    {
+      "key": "wallace-2024",
+      "type": "paper",
+      "title": "The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions",
+      "authors": [
+        "Wallace",
+        "E. et al."
+      ],
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2404.13208",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Custom instructions",
+      "anchor": "#definition",
+      "definition": "Explicit guidance about task, format and context, given in a prompt or stored for every conversation."
+    },
+    {
+      "term": "Instruction hierarchy",
+      "anchor": "#precedence-of-instructions",
+      "definition": "The trained priority of system over user over tool content."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why do instructions not guarantee compliance?",
+      "a": "The model samples text and can deviate; only code validation or constrained decoding guarantees format.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Name the four practices for custom instructions.",
+      "a": "Clarity, examples and templates, contextual information, iterative refinement.",
+      "anchor": "#four-practices",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "prompt-engineering"
+  }
+}

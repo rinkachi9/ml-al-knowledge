@@ -1,0 +1,104 @@
+{
+  "node": {
+    "id": "agents-and-cognitive-systems.agent-fundamentals.ai-agent",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "agents-and-cognitive-systems",
+      "agent-fundamentals"
+    ],
+    "aliases": [
+      "intelligent agent",
+      "agent"
+    ]
+  },
+  "links": [
+    {
+      "to": "ai-foundations.what-is-ai.artificial-intelligence",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "russell-2021",
+      "type": "book",
+      "title": "Artificial Intelligence: A Modern Approach, 4th edition",
+      "authors": [
+        "Russell",
+        "S.",
+        "Norvig",
+        "P."
+      ],
+      "year": 2021,
+      "url": "https://aima.cs.berkeley.edu/",
+      "verified": false
+    },
+    {
+      "key": "wooldridge-1995",
+      "type": "paper",
+      "title": "Intelligent Agents: Theory and Practice",
+      "authors": [
+        "Wooldridge",
+        "M.",
+        "Jennings",
+        "N."
+      ],
+      "year": 1995,
+      "url": "https://doi.org/10.1017/S0269888900008122",
+      "verified": false
+    },
+    {
+      "key": "anthropic-2024",
+      "type": "website",
+      "title": "Building effective agents",
+      "authors": [
+        "Anthropic"
+      ],
+      "year": 2024,
+      "url": "https://www.anthropic.com/engineering/building-effective-agents",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "AI agent",
+      "anchor": "#definition",
+      "definition": "A system that maps observations to actions to achieve objectives under constraints."
+    },
+    {
+      "term": "PEAS",
+      "anchor": "#describing-an-agents-task-peas",
+      "definition": "Performance measure, environment, actuators and sensors of an agent's task."
+    },
+    {
+      "term": "Control loop",
+      "anchor": "#the-control-loop",
+      "definition": "Perceive, think, act and check, repeated until the goal is met."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "What distinguishes an agent from a single model call?",
+      "a": "The loop with a check step: it observes the effects of its actions and adapts.",
+      "anchor": "#the-control-loop",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Name four properties of task environments.",
+      "a": "Observability, number of agents, determinism, episodic or sequential, static or dynamic, discrete or continuous.",
+      "anchor": "#describing-an-agents-task-peas",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "agent-fundamentals"
+  }
+}

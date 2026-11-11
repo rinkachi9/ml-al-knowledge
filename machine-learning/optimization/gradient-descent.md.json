@@ -1,0 +1,120 @@
+{
+  "node": {
+    "id": "machine-learning.optimization.gradient-descent",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "machine-learning",
+      "optimization"
+    ],
+    "aliases": [
+      "SGD"
+    ]
+  },
+  "links": [
+    {
+      "to": "machine-learning.optimization.loss-functions",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "goodfellow-2016",
+      "type": "book",
+      "title": "Deep Learning",
+      "authors": [
+        "Goodfellow",
+        "I.",
+        "Bengio",
+        "Y.",
+        "Courville",
+        "A."
+      ],
+      "year": 2016,
+      "url": "https://www.deeplearningbook.org/",
+      "verified": false
+    },
+    {
+      "key": "ruder-2016",
+      "type": "paper",
+      "title": "An overview of gradient descent optimization algorithms",
+      "authors": [
+        "Ruder",
+        "S."
+      ],
+      "year": 2016,
+      "url": "https://arxiv.org/abs/1609.04747",
+      "verified": false
+    },
+    {
+      "key": "kingma-2015",
+      "type": "paper",
+      "title": "Adam: A Method for Stochastic Optimization",
+      "authors": [
+        "Kingma",
+        "D.",
+        "Ba",
+        "J."
+      ],
+      "year": 2015,
+      "url": "https://arxiv.org/abs/1412.6980",
+      "verified": false
+    },
+    {
+      "key": "boyd-2004",
+      "type": "book",
+      "title": "Convex Optimization",
+      "authors": [
+        "Boyd",
+        "S.",
+        "Vandenberghe",
+        "L."
+      ],
+      "year": 2004,
+      "url": "https://web.stanford.edu/~boyd/cvxbook/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Gradient",
+      "anchor": "#definition",
+      "definition": "The vector of partial derivatives of the loss; it points to the steepest increase."
+    },
+    {
+      "term": "Learning rate",
+      "anchor": "#the-learning-rate",
+      "definition": "The step size of each gradient descent update."
+    },
+    {
+      "term": "Mini-batch gradient descent",
+      "anchor": "#batch-stochastic-and-mini-batch-gradient-descent",
+      "definition": "Gradient descent with gradients computed on small batches of examples."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "What happens when the learning rate is too large?",
+      "a": "Updates overshoot the minimum, the loss oscillates or diverges.",
+      "anchor": "#the-learning-rate",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What does Adam combine?",
+      "a": "Momentum with per-parameter step sizes scaled by running gradient magnitudes.",
+      "anchor": "#improved-optimizers",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "optimization"
+  }
+}

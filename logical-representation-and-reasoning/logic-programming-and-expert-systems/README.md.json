@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "logical-representation-and-reasoning.logic-programming-and-expert-systems",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "logical-representation-and-reasoning",
+      "logic-programming-and-expert-systems"
+    ]
+  },
+  "map": {
+    "group": "logic-programming-and-expert-systems"
+  }
+}

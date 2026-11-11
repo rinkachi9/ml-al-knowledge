@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "mathematical-foundations.information-theory",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "mathematical-foundations",
+      "information-theory"
+    ]
+  },
+  "map": {
+    "group": "information-theory"
+  }
+}

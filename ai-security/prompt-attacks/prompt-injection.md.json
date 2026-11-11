@@ -1,0 +1,124 @@
+{
+  "node": {
+    "id": "ai-security.prompt-attacks.prompt-injection",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "ai-security",
+      "prompt-attacks"
+    ],
+    "aliases": [
+      "indirect prompt injection",
+      "LLM01"
+    ]
+  },
+  "links": [
+    {
+      "to": "ai-security.prompt-attacks.prompt-hacking",
+      "rel": "part-of"
+    },
+    {
+      "to": "agents-and-cognitive-systems.llm-agents.tool-use",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "perez-2022",
+      "type": "paper",
+      "title": "Ignore Previous Prompt: Attack Techniques For Language Models",
+      "authors": [
+        "Perez",
+        "F.",
+        "Ribeiro",
+        "I."
+      ],
+      "year": 2022,
+      "url": "https://arxiv.org/abs/2211.09527",
+      "verified": false
+    },
+    {
+      "key": "greshake-2023",
+      "type": "paper",
+      "title": "Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+      "authors": [
+        "Greshake",
+        "K. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2302.12173",
+      "verified": false
+    },
+    {
+      "key": "owasp-2025",
+      "type": "standard",
+      "title": "LLM01:2025 Prompt Injection",
+      "authors": [
+        "OWASP"
+      ],
+      "year": 2025,
+      "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+      "verified": false
+    },
+    {
+      "key": "willison-2023",
+      "type": "website",
+      "title": "The Dual LLM pattern for building AI assistants that can resist prompt injection",
+      "authors": [
+        "Willison",
+        "S."
+      ],
+      "year": 2023,
+      "url": "https://simonwillison.net/2023/Apr/25/dual-llm-pattern/",
+      "verified": false
+    },
+    {
+      "key": "mitre-2025",
+      "type": "standard",
+      "title": "AML.T0051 LLM Prompt Injection",
+      "authors": [
+        "MITRE"
+      ],
+      "year": 2025,
+      "url": "https://atlas.mitre.org/techniques/AML.T0051",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Indirect prompt injection",
+      "anchor": "#direct-and-indirect-injection",
+      "definition": "Injection through content the application processes, not typed by the attacker."
+    },
+    {
+      "term": "Dual LLM pattern",
+      "anchor": "#detection-and-mitigation",
+      "definition": "Separating a privileged model from a quarantined model that reads untrusted content."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does the impact of injection depend on the application?",
+      "a": "It is bounded by the tools and data the model can reach.",
+      "anchor": "#impact",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What is the most robust mitigation for prompt injection?",
+      "a": "Least privilege for the model's tools and data.",
+      "anchor": "#detection-and-mitigation",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "prompt-attacks"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "ai-security.adversarial-machine-learning",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "ai-security",
+      "adversarial-machine-learning"
+    ]
+  },
+  "map": {
+    "group": "adversarial-machine-learning"
+  }
+}

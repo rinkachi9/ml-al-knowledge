@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "machine-learning.data-preparation",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "machine-learning",
+      "data-preparation"
+    ]
+  },
+  "map": {
+    "group": "data-preparation"
+  }
+}

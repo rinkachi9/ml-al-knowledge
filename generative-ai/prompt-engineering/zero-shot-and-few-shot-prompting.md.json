@@ -1,0 +1,96 @@
+{
+  "node": {
+    "id": "generative-ai.prompt-engineering.zero-shot-and-few-shot-prompting",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "generative-ai",
+      "prompt-engineering"
+    ],
+    "aliases": [
+      "in-context learning",
+      "one-shot prompting"
+    ]
+  },
+  "links": [
+    {
+      "to": "generative-ai.prompt-engineering.prompt-engineering",
+      "rel": "part-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "brown-2020",
+      "type": "paper",
+      "title": "Language Models are Few-Shot Learners",
+      "authors": [
+        "Brown",
+        "T. et al."
+      ],
+      "year": 2020,
+      "url": "https://arxiv.org/abs/2005.14165",
+      "verified": false
+    },
+    {
+      "key": "min-2022",
+      "type": "paper",
+      "title": "Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?",
+      "authors": [
+        "Min",
+        "S. et al."
+      ],
+      "year": 2022,
+      "url": "https://arxiv.org/abs/2202.12837",
+      "verified": false
+    },
+    {
+      "key": "zhao-2021",
+      "type": "paper",
+      "title": "Calibrate Before Use: Improving Few-Shot Performance of Language Models",
+      "authors": [
+        "Zhao",
+        "Z. et al."
+      ],
+      "year": 2021,
+      "url": "https://arxiv.org/abs/2102.09690",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Few-shot prompt",
+      "anchor": "#definitions",
+      "definition": "A prompt with several input and output examples before the real input."
+    },
+    {
+      "term": "In-context learning",
+      "anchor": "#why-examples-work-in-context-learning",
+      "definition": "Learning a task from examples in the prompt without changing weights."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why were the article titles in the original few-shot example not real demonstrations?",
+      "a": "They showed neither the input text nor the expected summary.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Name two biases of few-shot prompts.",
+      "a": "Majority label bias and recency (order) bias.",
+      "anchor": "#common-mistakes",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "prompt-engineering"
+  }
+}

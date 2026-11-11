@@ -1,0 +1,117 @@
+{
+  "node": {
+    "id": "ml-systems.hardware-accelerators.cuda",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 1,
+    "tags": [
+      "ml-systems",
+      "hardware-accelerators"
+    ],
+    "aliases": [
+      "Compute Unified Device Architecture",
+      "GPU programming"
+    ]
+  },
+  "links": [
+    {
+      "to": "deep-learning.training.training-a-neural-network",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "nvidia-2025",
+      "type": "documentation",
+      "title": "CUDA C++ Programming Guide",
+      "authors": [
+        "NVIDIA"
+      ],
+      "year": 2025,
+      "url": "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+      "verified": false
+    },
+    {
+      "key": "hwu-2022",
+      "type": "book",
+      "title": "Programming Massively Parallel Processors, 4th edition",
+      "authors": [
+        "Hwu",
+        "W.",
+        "Kirk",
+        "D.",
+        "El Hajj",
+        "I."
+      ],
+      "year": 2022
+    },
+    {
+      "key": "nvidia-2022",
+      "type": "website",
+      "title": "NVIDIA H100 Tensor Core GPU Architecture",
+      "authors": [
+        "NVIDIA"
+      ],
+      "year": 2022,
+      "url": "https://resources.nvidia.com/en-us-tensor-core",
+      "verified": false
+    },
+    {
+      "key": "williams-2009",
+      "type": "paper",
+      "title": "Roofline: An Insightful Visual Performance Model for Multicore Architectures",
+      "authors": [
+        "Williams",
+        "S.",
+        "Waterman",
+        "A.",
+        "Patterson",
+        "D."
+      ],
+      "year": 2009,
+      "url": "https://doi.org/10.1145/1498765.1498785",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Kernel",
+      "anchor": "#the-programming-model",
+      "definition": "A function that runs on the GPU, executed by many threads in parallel."
+    },
+    {
+      "term": "Warp",
+      "anchor": "#the-programming-model",
+      "definition": "A group of 32 threads executed in lockstep."
+    },
+    {
+      "term": "Coalesced memory access",
+      "anchor": "#how-cuda-powers-gpu-performance",
+      "definition": "Consecutive threads reading consecutive addresses so the hardware combines the reads."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why are elementwise operations memory bound?",
+      "a": "They do about one operation per value loaded from memory.",
+      "anchor": "#compute-bound-and-memory-bound",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "How do you compute the number of blocks for n elements and t threads per block?",
+      "a": "(n + t - 1) / t, rounded down in integer arithmetic.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "hardware-accelerators"
+  }
+}

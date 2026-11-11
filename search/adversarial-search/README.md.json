@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "search.adversarial-search",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "search",
+      "adversarial-search"
+    ]
+  },
+  "map": {
+    "group": "adversarial-search"
+  }
+}

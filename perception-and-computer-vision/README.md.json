@@ -1,0 +1,14 @@
+{
+  "node": {
+    "id": "perception-and-computer-vision",
+    "kind": "index",
+    "status": "draft",
+    "order": 14,
+    "tags": [
+      "perception-and-computer-vision"
+    ]
+  },
+  "map": {
+    "group": "perception-and-computer-vision"
+  }
+}

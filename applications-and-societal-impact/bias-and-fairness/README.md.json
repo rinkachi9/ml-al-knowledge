@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "applications-and-societal-impact.bias-and-fairness",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "applications-and-societal-impact",
+      "bias-and-fairness"
+    ]
+  },
+  "map": {
+    "group": "bias-and-fairness"
+  }
+}

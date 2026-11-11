@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "search.uninformed-search",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "search",
+      "uninformed-search"
+    ]
+  },
+  "map": {
+    "group": "uninformed-search"
+  }
+}

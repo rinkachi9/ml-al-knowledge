@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "ml-systems.mlops",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "ml-systems",
+      "mlops"
+    ]
+  },
+  "map": {
+    "group": "mlops"
+  }
+}

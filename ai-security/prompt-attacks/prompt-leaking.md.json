@@ -1,0 +1,100 @@
+{
+  "node": {
+    "id": "ai-security.prompt-attacks.prompt-leaking",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "ai-security",
+      "prompt-attacks"
+    ],
+    "aliases": [
+      "system prompt extraction",
+      "LLM07"
+    ]
+  },
+  "links": [
+    {
+      "to": "ai-security.prompt-attacks.prompt-hacking",
+      "rel": "part-of"
+    },
+    {
+      "to": "ai-security.prompt-attacks.prompt-injection",
+      "rel": "extends"
+    }
+  ],
+  "sources": [
+    {
+      "key": "perez-2022",
+      "type": "paper",
+      "title": "Ignore Previous Prompt: Attack Techniques For Language Models",
+      "authors": [
+        "Perez",
+        "F.",
+        "Ribeiro",
+        "I."
+      ],
+      "year": 2022,
+      "url": "https://arxiv.org/abs/2211.09527",
+      "verified": false
+    },
+    {
+      "key": "zhang-2024",
+      "type": "paper",
+      "title": "Effective Prompt Extraction from Language Models",
+      "authors": [
+        "Zhang",
+        "Y.",
+        "Carlini",
+        "N.",
+        "Ippolito",
+        "D."
+      ],
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2307.06865",
+      "verified": false
+    },
+    {
+      "key": "owasp-2025",
+      "type": "standard",
+      "title": "LLM07:2025 System Prompt Leakage",
+      "authors": [
+        "OWASP"
+      ],
+      "year": 2025,
+      "url": "https://genai.owasp.org/llmrisk/llm072025-system-prompt-leakage/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Canary token",
+      "anchor": "#detection-and-mitigation",
+      "definition": "A unique string in the system prompt whose appearance in output reveals a leak."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why assume every prompt will leak?",
+      "a": "Instructions alone cannot reliably prevent extraction through paraphrase, translation or encoding.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Name two prompt leaking techniques.",
+      "a": "Direct requests, task reframing such as translation, continuation, encoding.",
+      "anchor": "#definition",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "prompt-attacks"
+  }
+}

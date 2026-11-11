@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "planning.classical-planning",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "planning",
+      "classical-planning"
+    ]
+  },
+  "map": {
+    "group": "classical-planning"
+  }
+}

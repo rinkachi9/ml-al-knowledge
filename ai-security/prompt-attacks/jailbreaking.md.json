@@ -1,0 +1,126 @@
+{
+  "node": {
+    "id": "ai-security.prompt-attacks.jailbreaking",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "ai-security",
+      "prompt-attacks"
+    ],
+    "aliases": [
+      "LLM jailbreak"
+    ]
+  },
+  "links": [
+    {
+      "to": "ai-security.prompt-attacks.prompt-hacking",
+      "rel": "part-of"
+    },
+    {
+      "to": "generative-ai.prompt-engineering.role-prompting",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "wei-2023",
+      "type": "paper",
+      "title": "Jailbroken: How Does LLM Safety Training Fail?",
+      "authors": [
+        "Wei",
+        "A.",
+        "Haghtalab",
+        "N.",
+        "Steinhardt",
+        "J."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2307.02483",
+      "verified": false
+    },
+    {
+      "key": "zou-2023",
+      "type": "paper",
+      "title": "Universal and Transferable Adversarial Attacks on Aligned Language Models",
+      "authors": [
+        "Zou",
+        "A. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2307.15043",
+      "verified": false
+    },
+    {
+      "key": "anil-2024",
+      "type": "website",
+      "title": "Many-shot Jailbreaking",
+      "authors": [
+        "Anil",
+        "C. et al."
+      ],
+      "year": 2024,
+      "url": "https://www.anthropic.com/research/many-shot-jailbreaking",
+      "verified": false
+    },
+    {
+      "key": "inan-2023",
+      "type": "paper",
+      "title": "Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations",
+      "authors": [
+        "Inan",
+        "H. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2312.06674",
+      "verified": false
+    },
+    {
+      "key": "mitre-2025",
+      "type": "standard",
+      "title": "AML.T0054 LLM Jailbreak",
+      "authors": [
+        "MITRE"
+      ],
+      "year": 2025,
+      "url": "https://atlas.mitre.org/techniques/AML.T0054",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Jailbreak",
+      "anchor": "#definition",
+      "definition": "An input that makes a model violate the behavior its developer trained it to have."
+    },
+    {
+      "term": "Guardrail model",
+      "anchor": "#detection-and-mitigation",
+      "definition": "A classifier screening inputs and outputs independently of the main model."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "What harm did the World Cup example show?",
+      "a": "Detailed, confident fabrication that looks like fact out of context.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "What is over-refusal and why does it matter?",
+      "a": "Refusing legitimate requests; stricter safety training trades jailbreak resistance against it.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "prompt-attacks"
+  }
+}

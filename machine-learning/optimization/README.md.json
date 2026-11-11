@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "machine-learning.optimization",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "machine-learning",
+      "optimization"
+    ]
+  },
+  "map": {
+    "group": "optimization"
+  }
+}

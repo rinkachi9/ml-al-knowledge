@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "machine-learning.supervised-learning-algorithms",
+    "kind": "index",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "machine-learning",
+      "supervised-learning-algorithms"
+    ]
+  },
+  "map": {
+    "group": "supervised-learning-algorithms"
+  }
+}

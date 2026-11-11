@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "ai-foundations.what-is-ai",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "ai-foundations",
+      "what-is-ai"
+    ]
+  },
+  "map": {
+    "group": "what-is-ai"
+  }
+}

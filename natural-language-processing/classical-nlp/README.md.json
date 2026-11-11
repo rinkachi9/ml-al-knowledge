@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "natural-language-processing.classical-nlp",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "natural-language-processing",
+      "classical-nlp"
+    ]
+  },
+  "map": {
+    "group": "classical-nlp"
+  }
+}

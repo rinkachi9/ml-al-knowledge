@@ -1,0 +1,14 @@
+{
+  "node": {
+    "id": "mathematical-foundations",
+    "kind": "index",
+    "status": "draft",
+    "order": 17,
+    "tags": [
+      "mathematical-foundations"
+    ]
+  },
+  "map": {
+    "group": "mathematical-foundations"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "project": {
+    "name": "ML and AI Knowledge",
+    "description": "A personal, framework agnostic knowledge base of artificial intelligence and machine learning, organized by the knowledge units of the AI knowledge area of the ACM/IEEE-CS/AAAI Computer Science Curricula 2023, with supporting areas for AI security, ML systems and mathematics.",
+    "language": "en"
+  },
+  "entryPoints": [
+    {
+      "path": "ai-foundations"
+    },
+    {
+      "path": "search"
+    },
+    {
+      "path": "knowledge-representation-and-reasoning"
+    },
+    {
+      "path": "machine-learning"
+    },
+    {
+      "path": "deep-learning"
+    },
+    {
+      "path": "generative-ai"
+    },
+    {
+      "path": "applications-and-societal-impact"
+    },
+    {
+      "path": "logical-representation-and-reasoning"
+    },
+    {
+      "path": "probabilistic-reasoning"
+    },
+    {
+      "path": "planning"
+    },
+    {
+      "path": "agents-and-cognitive-systems"
+    },
+    {
+      "path": "natural-language-processing"
+    },
+    {
+      "path": "robotics"
+    },
+    {
+      "path": "perception-and-computer-vision"
+    },
+    {
+      "path": "ai-security"
+    },
+    {
+      "path": "ml-systems"
+    },
+    {
+      "path": "mathematical-foundations"
+    },
+    {
+      "path": "case-studies"
+    }
+  ],
+  "toc": {
+    "file": "ToC.md",
+    "check": true,
+    "descriptions": {
+      ".gitignore": "Files excluded from version control.",
+      "librarian-os.json": "Configuration for Librarian OS: project name, entry points and rules.",
+      "_assets/ai-foundations/artificial-intelligence-nested-fields.svg": "Figure of the note \"Artificial intelligence\": AI, machine learning, deep learning and generative AI as nested fields.",
+      "_assets/ml-systems/cuda-vector-addition.svg": "Figure of the note \"CUDA\": vector addition with one GPU thread per element.",
+      "_roadmaps/generative-ai.json": "Librarian OS roadmap: a learning path for generative AI in four stages."
+    }
+  },
+  "rules": {
+    "requireSidecars": true,
+    "noLongDashes": true
+  }
+}

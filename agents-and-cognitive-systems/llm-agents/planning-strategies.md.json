@@ -1,0 +1,131 @@
+{
+  "node": {
+    "id": "agents-and-cognitive-systems.llm-agents.planning-strategies",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 2,
+    "tags": [
+      "agents-and-cognitive-systems",
+      "llm-agents"
+    ],
+    "aliases": [
+      "ReAct",
+      "Tree of thoughts",
+      "Reflexion",
+      "plan-and-execute"
+    ]
+  },
+  "links": [
+    {
+      "to": "agents-and-cognitive-systems.llm-agents.llm-based-agents",
+      "rel": "part-of"
+    },
+    {
+      "to": "generative-ai.prompt-engineering.chain-of-thought-prompting",
+      "rel": "extends"
+    }
+  ],
+  "sources": [
+    {
+      "key": "yao-2023",
+      "type": "paper",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "authors": [
+        "Yao",
+        "S. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2210.03629",
+      "verified": false
+    },
+    {
+      "key": "wang-2023",
+      "type": "paper",
+      "title": "Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models",
+      "authors": [
+        "Wang",
+        "L. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2305.04091",
+      "verified": false
+    },
+    {
+      "key": "yao-2023-2",
+      "type": "paper",
+      "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+      "authors": [
+        "Yao",
+        "S. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2305.10601",
+      "verified": false
+    },
+    {
+      "key": "shinn-2023",
+      "type": "paper",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "authors": [
+        "Shinn",
+        "N. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2303.11366",
+      "verified": false
+    },
+    {
+      "key": "huang-2024",
+      "type": "paper",
+      "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+      "authors": [
+        "Huang",
+        "J. et al."
+      ],
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2310.01798",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "ReAct",
+      "anchor": "#react-reason-and-act",
+      "definition": "Interleaving reasoning steps with actions and observations."
+    },
+    {
+      "term": "Plan-and-execute",
+      "anchor": "#plan-and-execute",
+      "definition": "Writing a full plan first, then executing it step by step."
+    },
+    {
+      "term": "Reflexion",
+      "anchor": "#reflexion-and-self-critique",
+      "definition": "Storing verbal reflections on failed attempts to improve the next attempt."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "When is plan-and-execute better than ReAct?",
+      "a": "For long tasks with a clear structure, where committing to a plan keeps the agent on track.",
+      "anchor": "#comparison",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What does self-critique need to work well?",
+      "a": "An external signal such as tests or validators.",
+      "anchor": "#reflexion-and-self-critique",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "llm-agents"
+  }
+}

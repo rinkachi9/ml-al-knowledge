@@ -1,0 +1,14 @@
+{
+  "node": {
+    "id": "machine-learning",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "machine-learning"
+    ]
+  },
+  "map": {
+    "group": "machine-learning"
+  }
+}

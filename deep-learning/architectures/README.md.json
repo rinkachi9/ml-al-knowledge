@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "deep-learning.architectures",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "deep-learning",
+      "architectures"
+    ]
+  },
+  "map": {
+    "group": "architectures"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "deep-learning.neural-network-fundamentals",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "deep-learning",
+      "neural-network-fundamentals"
+    ]
+  },
+  "map": {
+    "group": "neural-network-fundamentals"
+  }
+}

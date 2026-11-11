@@ -1,0 +1,14 @@
+{
+  "node": {
+    "id": "search",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "search"
+    ]
+  },
+  "map": {
+    "group": "search"
+  }
+}

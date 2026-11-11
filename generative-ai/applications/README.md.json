@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "generative-ai.applications",
+    "kind": "index",
+    "status": "draft",
+    "order": 9,
+    "tags": [
+      "generative-ai",
+      "applications"
+    ]
+  },
+  "map": {
+    "group": "applications"
+  }
+}

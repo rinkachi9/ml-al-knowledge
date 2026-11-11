@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "perception-and-computer-vision.image-processing",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "perception-and-computer-vision",
+      "image-processing"
+    ]
+  },
+  "map": {
+    "group": "image-processing"
+  }
+}

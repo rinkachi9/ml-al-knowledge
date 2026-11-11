@@ -1,0 +1,100 @@
+{
+  "node": {
+    "id": "ai-security.prompt-attacks.prompt-hacking",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "ai-security",
+      "prompt-attacks"
+    ]
+  },
+  "links": [
+    {
+      "to": "generative-ai.prompt-engineering.prompt-engineering",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "generative-ai.prompt-engineering.custom-instructions",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "schulhoff-2023",
+      "type": "paper",
+      "title": "Ignore This Title and HackAPrompt: Exposing Systemic Vulnerabilities of LLMs through a Global Scale Prompt Hacking Competition",
+      "authors": [
+        "Schulhoff",
+        "S. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2311.16119",
+      "verified": false
+    },
+    {
+      "key": "owasp-2025",
+      "type": "standard",
+      "title": "OWASP Top 10 for LLM Applications 2025",
+      "authors": [
+        "OWASP"
+      ],
+      "year": 2025,
+      "url": "https://genai.owasp.org/llm-top-10/",
+      "verified": false
+    },
+    {
+      "key": "mitre-2025",
+      "type": "standard",
+      "title": "ATLAS: Adversarial Threat Landscape for Artificial-Intelligence Systems",
+      "authors": [
+        "MITRE"
+      ],
+      "year": 2025,
+      "url": "https://atlas.mitre.org/",
+      "verified": false
+    },
+    {
+      "key": "learn-2024",
+      "type": "documentation",
+      "title": "Prompt Hacking",
+      "authors": [
+        "Learn Prompting"
+      ],
+      "year": 2024,
+      "url": "https://learnprompting.org/docs/prompt_hacking/introduction",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Prompt hacking",
+      "anchor": "#definition",
+      "definition": "Crafting inputs that make a model act against the intentions of its developer or provider."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the three prompt attacks.",
+      "a": "Prompt injection, prompt leaking and jailbreaking.",
+      "anchor": "#the-three-attacks",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is there no parameterized-query equivalent for prompts?",
+      "a": "Instructions and data are tokens in one stream that the model interprets by content.",
+      "anchor": "#why-the-weakness-exists",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "prompt-attacks"
+  }
+}

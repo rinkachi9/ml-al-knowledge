@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "deep-learning.training",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "deep-learning",
+      "training"
+    ]
+  },
+  "map": {
+    "group": "training"
+  }
+}

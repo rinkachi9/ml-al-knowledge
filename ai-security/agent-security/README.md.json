@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "ai-security.agent-security",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "ai-security",
+      "agent-security"
+    ]
+  },
+  "map": {
+    "group": "agent-security"
+  }
+}

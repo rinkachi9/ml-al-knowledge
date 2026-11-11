@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "robotics.robot-learning",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "robotics",
+      "robot-learning"
+    ]
+  },
+  "map": {
+    "group": "robot-learning"
+  }
+}

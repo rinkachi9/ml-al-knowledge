@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "natural-language-processing.semantics",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "natural-language-processing",
+      "semantics"
+    ]
+  },
+  "map": {
+    "group": "semantics"
+  }
+}

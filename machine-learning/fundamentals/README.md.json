@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "machine-learning.fundamentals",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "machine-learning",
+      "fundamentals"
+    ]
+  },
+  "map": {
+    "group": "fundamentals"
+  }
+}

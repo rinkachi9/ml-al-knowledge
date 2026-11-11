@@ -1,0 +1,14 @@
+{
+  "node": {
+    "id": "generative-ai",
+    "kind": "index",
+    "status": "draft",
+    "order": 6,
+    "tags": [
+      "generative-ai"
+    ]
+  },
+  "map": {
+    "group": "generative-ai"
+  }
+}

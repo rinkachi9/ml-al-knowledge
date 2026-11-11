@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "logical-representation-and-reasoning.knowledge-engineering",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "logical-representation-and-reasoning",
+      "knowledge-engineering"
+    ]
+  },
+  "map": {
+    "group": "knowledge-engineering"
+  }
+}

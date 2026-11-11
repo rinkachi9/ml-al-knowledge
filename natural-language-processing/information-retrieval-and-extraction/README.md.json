@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "natural-language-processing.information-retrieval-and-extraction",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "natural-language-processing",
+      "information-retrieval-and-extraction"
+    ]
+  },
+  "map": {
+    "group": "information-retrieval-and-extraction"
+  }
+}

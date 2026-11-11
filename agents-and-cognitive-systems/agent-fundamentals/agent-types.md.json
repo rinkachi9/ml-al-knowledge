@@ -1,0 +1,101 @@
+{
+  "node": {
+    "id": "agents-and-cognitive-systems.agent-fundamentals.agent-types",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "agents-and-cognitive-systems",
+      "agent-fundamentals"
+    ]
+  },
+  "links": [
+    {
+      "to": "agents-and-cognitive-systems.agent-fundamentals.ai-agent",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "machine-learning.learning-paradigms.reinforcement-learning",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "russell-2021",
+      "type": "book",
+      "title": "Artificial Intelligence: A Modern Approach, 4th edition",
+      "authors": [
+        "Russell",
+        "S.",
+        "Norvig",
+        "P."
+      ],
+      "year": 2021,
+      "url": "https://aima.cs.berkeley.edu/",
+      "verified": false
+    },
+    {
+      "key": "wooldridge-2009",
+      "type": "book",
+      "title": "An Introduction to MultiAgent Systems, 2nd edition",
+      "authors": [
+        "Wooldridge",
+        "M."
+      ],
+      "year": 2009
+    },
+    {
+      "key": "xi-2023",
+      "type": "paper",
+      "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+      "authors": [
+        "Xi",
+        "Z. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2309.07864",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Reactive agent",
+      "anchor": "#the-types",
+      "definition": "An agent that maps input directly to action without memory."
+    },
+    {
+      "term": "Deliberative agent",
+      "anchor": "#the-types",
+      "definition": "An agent that keeps a model of the world and plans before acting."
+    },
+    {
+      "term": "Hybrid agent",
+      "anchor": "#the-types",
+      "definition": "An agent that combines reactive behavior with planning."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "What does a utility-based agent add over a goal-based agent?",
+      "a": "A utility function to compare outcomes and trade off goals.",
+      "anchor": "#mapping-to-the-textbook-taxonomy",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Name the four components of a learning agent.",
+      "a": "Performance element, critic, learning element, problem generator.",
+      "anchor": "#learning-agents-and-reinforcement-learning",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "agent-fundamentals"
+  }
+}

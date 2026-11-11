@@ -1,0 +1,14 @@
+{
+  "node": {
+    "id": "ai-foundations",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "ai-foundations"
+    ]
+  },
+  "map": {
+    "group": "ai-foundations"
+  }
+}

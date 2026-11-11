@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "ml-systems.hardware-accelerators",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "ml-systems",
+      "hardware-accelerators"
+    ]
+  },
+  "map": {
+    "group": "hardware-accelerators"
+  }
+}

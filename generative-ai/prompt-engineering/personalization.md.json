@@ -1,0 +1,77 @@
+{
+  "node": {
+    "id": "generative-ai.prompt-engineering.personalization",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 6,
+    "tags": [
+      "generative-ai",
+      "prompt-engineering"
+    ]
+  },
+  "links": [
+    {
+      "to": "generative-ai.prompt-engineering.prompt-engineering",
+      "rel": "part-of"
+    },
+    {
+      "to": "generative-ai.prompt-engineering.custom-instructions",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "openai-2024",
+      "type": "website",
+      "title": "Memory and new controls for ChatGPT",
+      "authors": [
+        "OpenAI"
+      ],
+      "year": 2024,
+      "url": "https://openai.com/index/memory-and-new-controls-for-chatgpt/",
+      "verified": false
+    },
+    {
+      "key": "european-2016",
+      "type": "standard",
+      "title": "General Data Protection Regulation (Regulation (EU) 2016/679)",
+      "authors": [
+        "European Union"
+      ],
+      "year": 2016,
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Personalization",
+      "anchor": "#definition",
+      "definition": "Giving the model information about the user so that answers fit that person."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name three personalization techniques.",
+      "a": "Provide context, use personal pronouns, reference previous interactions, specify preferences, provide examples.",
+      "anchor": "#techniques",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Does a memory feature change the model's weights?",
+      "a": "No; it stores facts and inserts them into future prompts.",
+      "anchor": "#definition",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "prompt-engineering"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "mathematical-foundations.linear-algebra",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "mathematical-foundations",
+      "linear-algebra"
+    ]
+  },
+  "map": {
+    "group": "linear-algebra"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "node": {
+    "id": "deep-learning.neural-network-fundamentals.activation-functions",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "deep-learning",
+      "neural-network-fundamentals"
+    ],
+    "aliases": [
+      "ReLU",
+      "softmax",
+      "sigmoid"
+    ]
+  },
+  "links": [
+    {
+      "to": "deep-learning.neural-network-fundamentals.neural-networks",
+      "rel": "part-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "goodfellow-2016",
+      "type": "book",
+      "title": "Deep Learning",
+      "authors": [
+        "Goodfellow",
+        "I.",
+        "Bengio",
+        "Y.",
+        "Courville",
+        "A."
+      ],
+      "year": 2016,
+      "url": "https://www.deeplearningbook.org/",
+      "verified": false
+    },
+    {
+      "key": "nair-2010",
+      "type": "paper",
+      "title": "Rectified Linear Units Improve Restricted Boltzmann Machines",
+      "authors": [
+        "Nair",
+        "V.",
+        "Hinton",
+        "G."
+      ],
+      "year": 2010,
+      "url": "https://www.cs.toronto.edu/~hinton/absps/reluICML.pdf",
+      "verified": false
+    },
+    {
+      "key": "hendrycks-2016",
+      "type": "paper",
+      "title": "Gaussian Error Linear Units (GELUs)",
+      "authors": [
+        "Hendrycks",
+        "D.",
+        "Gimpel",
+        "K."
+      ],
+      "year": 2016,
+      "url": "https://arxiv.org/abs/1606.08415",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "ReLU",
+      "anchor": "#common-activation-functions",
+      "definition": "max(0, z): passes positive values and zeroes negative ones."
+    },
+    {
+      "term": "Softmax",
+      "anchor": "#common-activation-functions",
+      "definition": "Turns a vector of scores into probabilities that sum to 1."
+    },
+    {
+      "term": "Vanishing gradient",
+      "anchor": "#why-relu-replaced-sigmoid-in-hidden-layers",
+      "definition": "Gradients that shrink toward zero through many saturating layers."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "Why use one sigmoid per label instead of softmax for multi-label outputs?",
+      "a": "Softmax makes labels compete, so several labels cannot all be likely.",
+      "anchor": "#common-mistakes",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "What is the dying ReLU problem?",
+      "a": "A neuron whose input is always negative gets zero gradient and never recovers.",
+      "anchor": "#why-relu-replaced-sigmoid-in-hidden-layers",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "neural-network-fundamentals"
+  }
+}

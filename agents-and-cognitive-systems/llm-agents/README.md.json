@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "agents-and-cognitive-systems.llm-agents",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "agents-and-cognitive-systems",
+      "llm-agents"
+    ]
+  },
+  "map": {
+    "group": "llm-agents"
+  }
+}

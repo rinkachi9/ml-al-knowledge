@@ -1,0 +1,14 @@
+{
+  "node": {
+    "id": "logical-representation-and-reasoning",
+    "kind": "index",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "logical-representation-and-reasoning"
+    ]
+  },
+  "map": {
+    "group": "logical-representation-and-reasoning"
+  }
+}

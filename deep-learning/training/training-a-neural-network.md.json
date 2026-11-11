@@ -1,0 +1,116 @@
+{
+  "node": {
+    "id": "deep-learning.training.training-a-neural-network",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "deep-learning",
+      "training"
+    ],
+    "aliases": [
+      "training loop"
+    ]
+  },
+  "links": [
+    {
+      "to": "deep-learning.neural-network-fundamentals.neural-networks",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "deep-learning.neural-network-fundamentals.activation-functions",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "machine-learning.optimization.loss-functions",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "machine-learning.optimization.gradient-descent",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "goodfellow-2016",
+      "type": "book",
+      "title": "Deep Learning",
+      "authors": [
+        "Goodfellow",
+        "I.",
+        "Bengio",
+        "Y.",
+        "Courville",
+        "A."
+      ],
+      "year": 2016,
+      "url": "https://www.deeplearningbook.org/",
+      "verified": false
+    },
+    {
+      "key": "prince-2023",
+      "type": "book",
+      "title": "Understanding Deep Learning",
+      "authors": [
+        "Prince",
+        "S."
+      ],
+      "year": 2023,
+      "url": "https://udlbook.github.io/udlbook/",
+      "verified": false
+    },
+    {
+      "key": "karpathy-2019",
+      "type": "website",
+      "title": "A Recipe for Training Neural Networks",
+      "authors": [
+        "Karpathy",
+        "A."
+      ],
+      "year": 2019,
+      "url": "https://karpathy.github.io/2019/04/25/recipe/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Forward pass",
+      "anchor": "#step-3-compute-the-output",
+      "definition": "Steps 1 to 3: weighted sums and activations producing the prediction."
+    },
+    {
+      "term": "Epoch",
+      "anchor": "#step-7-iterate-until-convergence",
+      "definition": "One full pass over the training data."
+    },
+    {
+      "term": "Early stopping",
+      "anchor": "#step-7-iterate-until-convergence",
+      "definition": "Ending training when validation loss stops improving."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "List the seven steps of the training loop.",
+      "a": "Weighted sum, activation, output, loss, backpropagation, gradient descent update, iterate.",
+      "anchor": "#how-a-network-learns",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why must weights not all be initialized to the same value?",
+      "a": "All neurons would compute the same thing and receive the same updates forever.",
+      "anchor": "#common-mistakes",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "training"
+  }
+}

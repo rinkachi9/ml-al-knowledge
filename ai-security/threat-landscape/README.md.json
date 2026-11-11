@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "ai-security.threat-landscape",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "ai-security",
+      "threat-landscape"
+    ]
+  },
+  "map": {
+    "group": "threat-landscape"
+  }
+}

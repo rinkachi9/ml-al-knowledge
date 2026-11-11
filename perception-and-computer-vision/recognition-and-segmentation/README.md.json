@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "perception-and-computer-vision.recognition-and-segmentation",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "perception-and-computer-vision",
+      "recognition-and-segmentation"
+    ]
+  },
+  "map": {
+    "group": "recognition-and-segmentation"
+  }
+}

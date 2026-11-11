@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "ai-security.prompt-attacks",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "ai-security",
+      "prompt-attacks"
+    ]
+  },
+  "map": {
+    "group": "prompt-attacks"
+  }
+}

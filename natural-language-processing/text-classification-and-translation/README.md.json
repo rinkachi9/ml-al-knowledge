@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "natural-language-processing.text-classification-and-translation",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "natural-language-processing",
+      "text-classification-and-translation"
+    ]
+  },
+  "map": {
+    "group": "text-classification-and-translation"
+  }
+}

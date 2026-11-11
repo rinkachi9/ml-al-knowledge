@@ -1,0 +1,112 @@
+{
+  "node": {
+    "id": "machine-learning.fundamentals.overfitting-and-underfitting",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "machine-learning",
+      "fundamentals"
+    ],
+    "aliases": [
+      "bias-variance trade off"
+    ]
+  },
+  "links": [
+    {
+      "to": "machine-learning.fundamentals.machine-learning",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "machine-learning.model-evaluation.training-validation-and-test-data",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "hastie-2009",
+      "type": "book",
+      "title": "The Elements of Statistical Learning, 2nd edition",
+      "authors": [
+        "Hastie",
+        "T.",
+        "Tibshirani",
+        "R.",
+        "Friedman",
+        "J."
+      ],
+      "year": 2009,
+      "url": "https://hastie.su.domains/ElemStatLearn/",
+      "verified": false
+    },
+    {
+      "key": "bishop-2006",
+      "type": "book",
+      "title": "Pattern Recognition and Machine Learning",
+      "authors": [
+        "Bishop",
+        "C."
+      ],
+      "year": 2006
+    },
+    {
+      "key": "belkin-2019",
+      "type": "paper",
+      "title": "Reconciling modern machine learning practice and the bias-variance trade-off",
+      "authors": [
+        "Belkin",
+        "M.",
+        "Hsu",
+        "D.",
+        "Ma",
+        "S.",
+        "Mandal",
+        "S."
+      ],
+      "year": 2019,
+      "url": "https://arxiv.org/abs/1812.11118",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Overfitting",
+      "anchor": "#definitions",
+      "definition": "Learning the noise of the training data so that performance on new data is poor."
+    },
+    {
+      "term": "Underfitting",
+      "anchor": "#definitions",
+      "definition": "A model too simple to capture the patterns, with high error even on training data."
+    },
+    {
+      "term": "Bias-variance trade off",
+      "anchor": "#the-bias-and-variance-trade-off",
+      "definition": "Raising capacity lowers bias and raises variance; the best model minimizes their sum."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name three remedies for overfitting.",
+      "a": "More data or augmentation, regularization, simpler model, early stopping, ensembles.",
+      "anchor": "#remedies",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "In the polynomial example, why did degree 11 fail so badly?",
+      "a": "With 12 coefficients for 15 points it fits the noise and swings wildly between and beyond the training points.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "fundamentals"
+  }
+}

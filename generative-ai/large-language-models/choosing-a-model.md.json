@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "generative-ai.large-language-models.choosing-a-model",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "generative-ai",
+      "large-language-models"
+    ],
+    "aliases": [
+      "model selection"
+    ]
+  },
+  "links": [
+    {
+      "to": "generative-ai.fundamentals.generative-ai",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "ai-foundations.what-is-ai.ai-model",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "raffel-2020",
+      "type": "paper",
+      "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+      "authors": [
+        "Raffel",
+        "C. et al."
+      ],
+      "year": 2020,
+      "url": "https://arxiv.org/abs/1910.10683",
+      "verified": false
+    },
+    {
+      "key": "chen-2021",
+      "type": "paper",
+      "title": "Evaluating Large Language Models Trained on Code",
+      "authors": [
+        "Chen",
+        "M. et al."
+      ],
+      "year": 2021,
+      "url": "https://arxiv.org/abs/2107.03374",
+      "verified": false
+    },
+    {
+      "key": "liang-2022",
+      "type": "paper",
+      "title": "Holistic Evaluation of Language Models",
+      "authors": [
+        "Liang",
+        "P. et al."
+      ],
+      "year": 2022,
+      "url": "https://arxiv.org/abs/2211.09110",
+      "verified": false
+    },
+    {
+      "key": "liu-2023",
+      "type": "paper",
+      "title": "Lost in the Middle: How Language Models Use Long Contexts",
+      "authors": [
+        "Liu",
+        "N. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2307.03172",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Model type",
+      "anchor": "#model-type",
+      "definition": "The kind of model chosen for a task, such as general purpose or code-tuned."
+    },
+    {
+      "term": "Context window",
+      "anchor": "#selection-criteria",
+      "definition": "The maximum number of tokens a model accepts for input and output."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why pin a model version?",
+      "a": "Aliases can change behavior without notice; pinning keeps results reproducible.",
+      "anchor": "#common-mistakes",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "What is the default rule once several models pass the quality bar?",
+      "a": "Pick the cheapest and fastest one that passes.",
+      "anchor": "#a-decision-process",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "large-language-models"
+  }
+}

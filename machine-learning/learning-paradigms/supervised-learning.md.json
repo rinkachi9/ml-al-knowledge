@@ -1,0 +1,109 @@
+{
+  "node": {
+    "id": "machine-learning.learning-paradigms.supervised-learning",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "machine-learning",
+      "learning-paradigms"
+    ]
+  },
+  "links": [
+    {
+      "to": "machine-learning.fundamentals.machine-learning",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "machine-learning.fundamentals.features-and-labels",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "hastie-2009",
+      "type": "book",
+      "title": "The Elements of Statistical Learning, 2nd edition",
+      "authors": [
+        "Hastie",
+        "T.",
+        "Tibshirani",
+        "R.",
+        "Friedman",
+        "J."
+      ],
+      "year": 2009,
+      "url": "https://hastie.su.domains/ElemStatLearn/",
+      "verified": false
+    },
+    {
+      "key": "russell-2021",
+      "type": "book",
+      "title": "Artificial Intelligence: A Modern Approach, 4th edition",
+      "authors": [
+        "Russell",
+        "S.",
+        "Norvig",
+        "P."
+      ],
+      "year": 2021,
+      "url": "https://aima.cs.berkeley.edu/",
+      "verified": false
+    },
+    {
+      "key": "cortes-1995",
+      "type": "paper",
+      "title": "Support-vector networks",
+      "authors": [
+        "Cortes",
+        "C.",
+        "Vapnik",
+        "V."
+      ],
+      "year": 1995,
+      "url": "https://doi.org/10.1007/BF00994018",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Classification",
+      "anchor": "#classification-and-regression",
+      "definition": "Supervised learning with a categorical label."
+    },
+    {
+      "term": "Regression",
+      "anchor": "#classification-and-regression",
+      "definition": "Supervised learning with a numeric label."
+    },
+    {
+      "term": "Empirical risk minimization",
+      "anchor": "#definition",
+      "definition": "Choosing the model that minimizes the average loss on the training set."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "What distinguishes classification from regression?",
+      "a": "The type of label: a category for classification, a number for regression.",
+      "anchor": "#classification-and-regression",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why can a supervised model degrade after deployment without any code change?",
+      "a": "Data drift or concept drift changes the input distribution or the input-output relation.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "learning-paradigms"
+  }
+}

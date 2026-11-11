@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "search.heuristic-search",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "search",
+      "heuristic-search"
+    ]
+  },
+  "map": {
+    "group": "heuristic-search"
+  }
+}

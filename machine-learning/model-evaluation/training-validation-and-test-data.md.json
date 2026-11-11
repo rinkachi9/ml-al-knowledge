@@ -1,0 +1,113 @@
+{
+  "node": {
+    "id": "machine-learning.model-evaluation.training-validation-and-test-data",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "machine-learning",
+      "model-evaluation"
+    ],
+    "aliases": [
+      "train test split",
+      "data splits"
+    ]
+  },
+  "links": [
+    {
+      "to": "machine-learning.fundamentals.machine-learning",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "hastie-2009",
+      "type": "book",
+      "title": "The Elements of Statistical Learning, 2nd edition",
+      "authors": [
+        "Hastie",
+        "T.",
+        "Tibshirani",
+        "R.",
+        "Friedman",
+        "J."
+      ],
+      "year": 2009,
+      "url": "https://hastie.su.domains/ElemStatLearn/",
+      "verified": false
+    },
+    {
+      "key": "kaufman-2012",
+      "type": "paper",
+      "title": "Leakage in Data Mining: Formulation, Detection, and Avoidance",
+      "authors": [
+        "Kaufman",
+        "S.",
+        "Rosset",
+        "S.",
+        "Perlich",
+        "C.",
+        "Stitelman",
+        "O."
+      ],
+      "year": 2012,
+      "url": "https://doi.org/10.1145/2382577.2382579",
+      "verified": false
+    },
+    {
+      "key": "kapoor-2023",
+      "type": "paper",
+      "title": "Leakage and the reproducibility crisis in machine-learning-based science",
+      "authors": [
+        "Kapoor",
+        "S.",
+        "Narayanan",
+        "A."
+      ],
+      "year": 2023,
+      "url": "https://doi.org/10.1016/j.patter.2023.100804",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Validation set",
+      "anchor": "#definitions",
+      "definition": "Data used to choose hyperparameters and models."
+    },
+    {
+      "term": "Test set",
+      "anchor": "#definitions",
+      "definition": "Data used once at the end to estimate performance on new data."
+    },
+    {
+      "term": "Data leakage",
+      "anchor": "#data-leakage",
+      "definition": "Information from evaluation data or the future reaching the training process."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Which split strategy fits a fraud model that will score future transactions?",
+      "a": "A time based split: train on older transactions, test on newer ones.",
+      "anchor": "#split-strategies",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What does k-fold cross-validation estimate better than a single split?",
+      "a": "The mean performance with lower variance, and how stable the model is across folds.",
+      "anchor": "#cross-validation",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "model-evaluation"
+  }
+}

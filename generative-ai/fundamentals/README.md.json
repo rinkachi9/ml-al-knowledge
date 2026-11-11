@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "generative-ai.fundamentals",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "generative-ai",
+      "fundamentals"
+    ]
+  },
+  "map": {
+    "group": "fundamentals"
+  }
+}

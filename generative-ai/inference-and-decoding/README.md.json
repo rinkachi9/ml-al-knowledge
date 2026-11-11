@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "generative-ai.inference-and-decoding",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "generative-ai",
+      "inference-and-decoding"
+    ]
+  },
+  "map": {
+    "group": "inference-and-decoding"
+  }
+}

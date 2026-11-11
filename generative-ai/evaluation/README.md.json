@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "generative-ai.evaluation",
+    "kind": "index",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "generative-ai",
+      "evaluation"
+    ]
+  },
+  "map": {
+    "group": "evaluation"
+  }
+}

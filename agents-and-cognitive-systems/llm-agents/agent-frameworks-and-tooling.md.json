@@ -1,0 +1,122 @@
+{
+  "node": {
+    "id": "agents-and-cognitive-systems.llm-agents.agent-frameworks-and-tooling",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 7,
+    "tags": [
+      "agents-and-cognitive-systems",
+      "llm-agents"
+    ]
+  },
+  "links": [
+    {
+      "to": "agents-and-cognitive-systems.llm-agents.llm-based-agents",
+      "rel": "part-of"
+    },
+    {
+      "to": "agents-and-cognitive-systems.llm-agents.agent-memory",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "langchain-2025",
+      "type": "documentation",
+      "title": "LangChain documentation",
+      "authors": [
+        "LangChain"
+      ],
+      "year": 2025,
+      "url": "https://python.langchain.com/",
+      "verified": false
+    },
+    {
+      "key": "llamaindex-2025",
+      "type": "documentation",
+      "title": "LlamaIndex documentation",
+      "authors": [
+        "LlamaIndex"
+      ],
+      "year": 2025,
+      "url": "https://docs.llamaindex.ai/",
+      "verified": false
+    },
+    {
+      "key": "microsoft-2025",
+      "type": "documentation",
+      "title": "Semantic Kernel documentation",
+      "authors": [
+        "Microsoft"
+      ],
+      "year": 2025,
+      "url": "https://learn.microsoft.com/en-us/semantic-kernel/",
+      "verified": false
+    },
+    {
+      "key": "wu-2023",
+      "type": "paper",
+      "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+      "authors": [
+        "Wu",
+        "Q. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2308.08155",
+      "verified": false
+    },
+    {
+      "key": "temporal-2025",
+      "type": "documentation",
+      "title": "Temporal documentation",
+      "authors": [
+        "Temporal"
+      ],
+      "year": 2025,
+      "url": "https://docs.temporal.io/",
+      "verified": false
+    },
+    {
+      "key": "pgvector-2025",
+      "type": "website",
+      "title": "pgvector",
+      "authors": [
+        "pgvector"
+      ],
+      "year": 2025,
+      "url": "https://github.com/pgvector/pgvector",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Durable execution",
+      "anchor": "#choosing",
+      "definition": "Workflow execution whose state survives failures and restarts."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name one agent framework, one orchestrator and one vector database.",
+      "a": "For example LangChain, Temporal and Weaviate.",
+      "anchor": "#categories",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why build one agent loop by hand before adopting a framework?",
+      "a": "To understand what the framework does and keep the loop debuggable.",
+      "anchor": "#common-mistakes",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "llm-agents"
+  }
+}

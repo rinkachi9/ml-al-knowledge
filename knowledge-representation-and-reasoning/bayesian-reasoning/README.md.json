@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "knowledge-representation-and-reasoning.bayesian-reasoning",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "knowledge-representation-and-reasoning",
+      "bayesian-reasoning"
+    ]
+  },
+  "map": {
+    "group": "bayesian-reasoning"
+  }
+}

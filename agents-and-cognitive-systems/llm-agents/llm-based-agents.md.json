@@ -1,0 +1,118 @@
+{
+  "node": {
+    "id": "agents-and-cognitive-systems.llm-agents.llm-based-agents",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "agents-and-cognitive-systems",
+      "llm-agents"
+    ],
+    "aliases": [
+      "LLM agent"
+    ]
+  },
+  "links": [
+    {
+      "to": "agents-and-cognitive-systems.agent-fundamentals.ai-agent",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "generative-ai.prompt-engineering.prompt-engineering",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "agents-and-cognitive-systems.agent-fundamentals.agent-types",
+      "rel": "example-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "yao-2023",
+      "type": "paper",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "authors": [
+        "Yao",
+        "S. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2210.03629",
+      "verified": false
+    },
+    {
+      "key": "anthropic-2024",
+      "type": "website",
+      "title": "Building effective agents",
+      "authors": [
+        "Anthropic"
+      ],
+      "year": 2024,
+      "url": "https://www.anthropic.com/engineering/building-effective-agents",
+      "verified": false
+    },
+    {
+      "key": "wiesinger-2024",
+      "type": "website",
+      "title": "Agents",
+      "authors": [
+        "Wiesinger",
+        "J.",
+        "Marlow",
+        "P.",
+        "Vuskovic",
+        "V."
+      ],
+      "year": 2024,
+      "url": "https://www.kaggle.com/whitepaper-agents",
+      "verified": false
+    },
+    {
+      "key": "wang-2024",
+      "type": "paper",
+      "title": "A Survey on Large Language Model based Autonomous Agents",
+      "authors": [
+        "Wang",
+        "L. et al."
+      ],
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2308.11432",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Orchestrator",
+      "anchor": "#key-components",
+      "definition": "The component that runs the agent loop and executes the model's tool calls."
+    },
+    {
+      "term": "Autonomous agent",
+      "anchor": "#autonomy",
+      "definition": "A long-running agent that triggers its own actions in response to events."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the five layers of the agent architecture.",
+      "a": "Input, reasoning, action, memory, control loop.",
+      "anchor": "#layered-architecture",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why treat an agent as an untrusted component?",
+      "a": "Its decisions are probabilistic and can be manipulated, so limits must be enforced outside it.",
+      "anchor": "#design-best-practices",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "llm-agents"
+  }
+}

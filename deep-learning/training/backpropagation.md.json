@@ -1,0 +1,108 @@
+{
+  "node": {
+    "id": "deep-learning.training.backpropagation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "deep-learning",
+      "training"
+    ],
+    "aliases": [
+      "backprop",
+      "reverse mode automatic differentiation"
+    ]
+  },
+  "links": [
+    {
+      "to": "deep-learning.training.training-a-neural-network",
+      "rel": "part-of"
+    },
+    {
+      "to": "deep-learning.neural-network-fundamentals.neural-networks",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "rumelhart-1986",
+      "type": "paper",
+      "title": "Learning representations by back-propagating errors",
+      "authors": [
+        "Rumelhart",
+        "D.",
+        "Hinton",
+        "G.",
+        "Williams",
+        "R."
+      ],
+      "year": 1986,
+      "url": "https://doi.org/10.1038/323533a0",
+      "verified": false
+    },
+    {
+      "key": "goodfellow-2016",
+      "type": "book",
+      "title": "Deep Learning",
+      "authors": [
+        "Goodfellow",
+        "I.",
+        "Bengio",
+        "Y.",
+        "Courville",
+        "A."
+      ],
+      "year": 2016,
+      "url": "https://www.deeplearningbook.org/",
+      "verified": false
+    },
+    {
+      "key": "baydin-2018",
+      "type": "paper",
+      "title": "Automatic Differentiation in Machine Learning: a Survey",
+      "authors": [
+        "Baydin",
+        "A. et al."
+      ],
+      "year": 2018,
+      "url": "https://arxiv.org/abs/1502.05767",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Chain rule",
+      "anchor": "#mechanism",
+      "definition": "The derivative of a composition is the product of the derivatives of its parts."
+    },
+    {
+      "term": "Error signal",
+      "anchor": "#mechanism",
+      "definition": "The derivative of the loss with respect to a layer's pre-activations, passed backward."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is backpropagation efficient compared to perturbing each weight?",
+      "a": "It reuses intermediate values and computes all gradients in one backward pass.",
+      "anchor": "#why-it-is-efficient",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "How do you test a hand-written backward pass?",
+      "a": "Compare analytic gradients with finite differences on a small input.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "training"
+  }
+}

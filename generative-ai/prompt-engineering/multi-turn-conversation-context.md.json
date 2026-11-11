@@ -1,0 +1,83 @@
+{
+  "node": {
+    "id": "generative-ai.prompt-engineering.multi-turn-conversation-context",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 4,
+    "tags": [
+      "generative-ai",
+      "prompt-engineering"
+    ],
+    "aliases": [
+      "conversation state",
+      "chat history"
+    ]
+  },
+  "links": [
+    {
+      "to": "generative-ai.prompt-engineering.prompt-engineering",
+      "rel": "part-of"
+    }
+  ],
+  "sources": [
+    {
+      "key": "openai-2025",
+      "type": "documentation",
+      "title": "Conversation state",
+      "authors": [
+        "OpenAI"
+      ],
+      "year": 2025,
+      "url": "https://platform.openai.com/docs/guides/conversation-state",
+      "verified": false
+    },
+    {
+      "key": "liu-2023",
+      "type": "paper",
+      "title": "Lost in the Middle: How Language Models Use Long Contexts",
+      "authors": [
+        "Liu",
+        "N. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2307.03172",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Context window",
+      "anchor": "#limits-of-the-context-window",
+      "definition": "The maximum number of tokens a model can take in one request."
+    },
+    {
+      "term": "Stateless model",
+      "anchor": "#how-it-works",
+      "definition": "A model keeps no memory between requests; the application resends the history."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "How does a chat application make a model 'remember' earlier turns?",
+      "a": "It stores the messages and resends the whole history with every request.",
+      "anchor": "#how-it-works",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "What can an application do when a conversation exceeds the context window?",
+      "a": "Trim old turns or replace them with a summary, keeping key facts pinned.",
+      "anchor": "#limits-of-the-context-window",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "prompt-engineering"
+  }
+}

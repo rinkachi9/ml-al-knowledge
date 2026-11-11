@@ -1,0 +1,14 @@
+{
+  "node": {
+    "id": "knowledge-representation-and-reasoning",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "knowledge-representation-and-reasoning"
+    ]
+  },
+  "map": {
+    "group": "knowledge-representation-and-reasoning"
+  }
+}

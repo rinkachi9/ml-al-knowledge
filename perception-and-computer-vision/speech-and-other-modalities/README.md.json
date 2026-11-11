@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "perception-and-computer-vision.speech-and-other-modalities",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "perception-and-computer-vision",
+      "speech-and-other-modalities"
+    ]
+  },
+  "map": {
+    "group": "speech-and-other-modalities"
+  }
+}

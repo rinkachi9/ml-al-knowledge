@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "mathematical-foundations.optimization-theory",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "mathematical-foundations",
+      "optimization-theory"
+    ]
+  },
+  "map": {
+    "group": "optimization-theory"
+  }
+}

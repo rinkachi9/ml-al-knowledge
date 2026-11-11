@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "generative-ai.large-language-models",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "generative-ai",
+      "large-language-models"
+    ]
+  },
+  "map": {
+    "group": "large-language-models"
+  }
+}

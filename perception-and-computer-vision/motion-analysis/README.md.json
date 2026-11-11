@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "perception-and-computer-vision.motion-analysis",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "perception-and-computer-vision",
+      "motion-analysis"
+    ]
+  },
+  "map": {
+    "group": "motion-analysis"
+  }
+}

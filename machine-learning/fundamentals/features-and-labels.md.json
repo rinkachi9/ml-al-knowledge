@@ -1,0 +1,89 @@
+{
+  "node": {
+    "id": "machine-learning.fundamentals.features-and-labels",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "machine-learning",
+      "fundamentals"
+    ],
+    "aliases": [
+      "target variable",
+      "feature vector"
+    ]
+  },
+  "links": [
+    {
+      "to": "machine-learning.fundamentals.machine-learning",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "gron-2022",
+      "type": "book",
+      "title": "Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow, 3rd edition",
+      "authors": [
+        "Géron",
+        "A."
+      ],
+      "year": 2022
+    },
+    {
+      "key": "kuhn-2019",
+      "type": "book",
+      "title": "Feature Engineering and Selection: A Practical Approach for Predictive Models",
+      "authors": [
+        "Kuhn",
+        "M.",
+        "Johnson",
+        "K."
+      ],
+      "year": 2019,
+      "url": "https://www.feat.engineering/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Feature",
+      "anchor": "#definitions",
+      "definition": "A measurable input property of an example that a model uses for prediction."
+    },
+    {
+      "term": "Label",
+      "anchor": "#definitions",
+      "definition": "The correct answer for an example, which a supervised model learns to predict."
+    },
+    {
+      "term": "One-hot encoding",
+      "anchor": "#kinds-of-features",
+      "definition": "Encoding a nominal category as one binary column per category."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "How would you encode a feature 'payment method' with values card, transfer and cash?",
+      "a": "One-hot encoding into three binary columns.",
+      "anchor": "#kinds-of-features",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why must preprocessing be fitted on training data only?",
+      "a": "Fitting on all data leaks test information into training and inflates scores.",
+      "anchor": "#common-mistakes",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "fundamentals"
+  }
+}

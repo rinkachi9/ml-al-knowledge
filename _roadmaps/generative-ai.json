@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "id": "generative-ai",
+  "title": "Learn generative AI",
+  "description": "A learning path in four stages: build the vocabulary, use models through their APIs, apply them to domains, and make models your own with retrieval and fine-tuning.",
+  "nodes": [
+    { "id": "artificial-intelligence", "title": "Artificial intelligence", "group": "1. GenAI terminology", "documentation": ["ai-foundations/what-is-ai/artificial-intelligence.md", "generative-ai/fundamentals/generative-ai.md"] },
+    { "id": "machine-learning", "title": "Machine learning", "group": "1. GenAI terminology", "documentation": ["machine-learning/fundamentals/machine-learning.md", "deep-learning/neural-network-fundamentals/neural-networks.md"] },
+    { "id": "transformers", "title": "Transformers", "group": "1. GenAI terminology", "description": "Planned: the transformer architecture behind large language models.", "documentation": ["deep-learning/architectures/README.md"], "externalSources": ["https://arxiv.org/abs/1706.03762"] },
+    { "id": "prompt-engineering", "title": "Prompt engineering", "group": "1. GenAI terminology", "documentation": ["generative-ai/prompt-engineering/prompt-engineering.md", "generative-ai/prompt-engineering/zero-shot-and-few-shot-prompting.md"] },
+    { "id": "api-best-practices", "title": "API best practices", "group": "2. Using the model APIs", "documentation": ["generative-ai/large-language-models/choosing-a-model.md", "generative-ai/inference-and-decoding/sampling-parameters.md", "generative-ai/prompt-engineering/output-formats.md"] },
+    { "id": "openai", "title": "OpenAI", "group": "2. Using the model APIs", "externalSources": ["https://platform.openai.com/docs"] },
+    { "id": "hugging-face", "title": "Hugging Face", "group": "2. Using the model APIs", "externalSources": ["https://huggingface.co/docs"] },
+    { "id": "vertex-ai", "title": "Vertex AI", "group": "2. Using the model APIs", "externalSources": ["https://cloud.google.com/vertex-ai/docs"] },
+    { "id": "education-and-learning", "title": "Education and learning", "group": "3. GenAI applications", "documentation": ["generative-ai/applications/README.md"] },
+    { "id": "business-and-finance", "title": "Business and finance", "group": "3. GenAI applications", "documentation": ["generative-ai/applications/README.md"] },
+    { "id": "customer-support", "title": "Customer support", "group": "3. GenAI applications", "documentation": ["generative-ai/applications/README.md", "agents-and-cognitive-systems/llm-agents/agent-use-cases.md"] },
+    { "id": "marketing", "title": "Marketing", "group": "3. GenAI applications", "documentation": ["generative-ai/applications/README.md"] },
+    { "id": "rag", "title": "Retrieval-augmented generation", "group": "4. Making models your own", "documentation": ["generative-ai/retrieval-augmented-generation/retrieval-augmented-generation.md"] },
+    { "id": "fine-tuning", "title": "Fine tuning", "group": "4. Making models your own", "description": "Planned: adapting a model's weights to a task.", "documentation": ["generative-ai/model-adaptation/README.md"] }
+  ],
+  "edges": [
+    { "from": "artificial-intelligence", "to": "machine-learning", "type": "next" },
+    { "from": "machine-learning", "to": "transformers", "type": "next" },
+    { "from": "transformers", "to": "prompt-engineering", "type": "next" },
+    { "from": "prompt-engineering", "to": "api-best-practices", "type": "next" },
+    { "from": "api-best-practices", "to": "openai", "type": "branch" },
+    { "from": "api-best-practices", "to": "hugging-face", "type": "branch" },
+    { "from": "api-best-practices", "to": "vertex-ai", "type": "branch" },
+    { "from": "api-best-practices", "to": "education-and-learning", "type": "next" },
+    { "from": "api-best-practices", "to": "business-and-finance", "type": "branch" },
+    { "from": "api-best-practices", "to": "customer-support", "type": "branch" },
+    { "from": "api-best-practices", "to": "marketing", "type": "branch" },
+    { "from": "education-and-learning", "to": "rag", "type": "next" },
+    { "from": "rag", "to": "fine-tuning", "type": "next" }
+  ]
+}

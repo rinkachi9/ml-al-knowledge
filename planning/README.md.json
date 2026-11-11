@@ -1,0 +1,14 @@
+{
+  "node": {
+    "id": "planning",
+    "kind": "index",
+    "status": "draft",
+    "order": 10,
+    "tags": [
+      "planning"
+    ]
+  },
+  "map": {
+    "group": "planning"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "node": {
+    "id": "agents-and-cognitive-systems.cognitive-systems.cognitive-architectures",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 1,
+    "tags": [
+      "agents-and-cognitive-systems",
+      "cognitive-systems"
+    ],
+    "aliases": [
+      "ACT-R",
+      "Soar",
+      "CoALA"
+    ]
+  },
+  "links": [
+    {
+      "to": "agents-and-cognitive-systems.agent-fundamentals.ai-agent",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "agents-and-cognitive-systems.llm-agents.agent-memory",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "anderson-2004",
+      "type": "paper",
+      "title": "An Integrated Theory of the Mind",
+      "authors": [
+        "Anderson",
+        "J. et al."
+      ],
+      "year": 2004,
+      "url": "https://doi.org/10.1037/0033-295X.111.4.1036",
+      "verified": false
+    },
+    {
+      "key": "laird-2012",
+      "type": "book",
+      "title": "The Soar Cognitive Architecture",
+      "authors": [
+        "Laird",
+        "J."
+      ],
+      "year": 2012
+    },
+    {
+      "key": "kotseruba-2020",
+      "type": "paper",
+      "title": "40 years of cognitive architectures: core cognitive abilities and practical applications",
+      "authors": [
+        "Kotseruba",
+        "I.",
+        "Tsotsos",
+        "J."
+      ],
+      "year": 2020,
+      "url": "https://doi.org/10.1007/s10462-018-9646-y",
+      "verified": false
+    },
+    {
+      "key": "sumers-2023",
+      "type": "paper",
+      "title": "Cognitive Architectures for Language Agents",
+      "authors": [
+        "Sumers",
+        "T. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2309.02427",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Cognitive architecture",
+      "anchor": "#definition",
+      "definition": "A fixed blueprint of memories, processes and a decision cycle across tasks."
+    },
+    {
+      "term": "Chunking",
+      "anchor": "#soar",
+      "definition": "Soar's learning mechanism that stores the result of an impasse as a new rule."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "Which language agent component corresponds to working memory?",
+      "a": "The context window and current state.",
+      "anchor": "#from-cognitive-architectures-to-language-agents",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What does ACT-R's declarative memory activation model?",
+      "a": "How recently and frequently a fact was used, rising with use and decaying over time.",
+      "anchor": "#act-r",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "cognitive-systems"
+  }
+}

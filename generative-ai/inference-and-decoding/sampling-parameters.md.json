@@ -1,0 +1,135 @@
+{
+  "node": {
+    "id": "generative-ai.inference-and-decoding.sampling-parameters",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "generative-ai",
+      "inference-and-decoding"
+    ],
+    "aliases": [
+      "temperature",
+      "top-k",
+      "top-p",
+      "nucleus sampling",
+      "decoding parameters"
+    ]
+  },
+  "links": [
+    {
+      "to": "generative-ai.fundamentals.generative-ai",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "deep-learning.neural-network-fundamentals.activation-functions",
+      "rel": "related"
+    },
+    {
+      "to": "ai-foundations.what-is-ai.ai-model",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "holtzman-2020",
+      "type": "paper",
+      "title": "The Curious Case of Neural Text Degeneration",
+      "authors": [
+        "Holtzman",
+        "A.",
+        "Buys",
+        "J.",
+        "Du",
+        "L.",
+        "Forbes",
+        "M.",
+        "Choi",
+        "Y."
+      ],
+      "year": 2020,
+      "url": "https://arxiv.org/abs/1904.09751",
+      "verified": false
+    },
+    {
+      "key": "fan-2018",
+      "type": "paper",
+      "title": "Hierarchical Neural Story Generation",
+      "authors": [
+        "Fan",
+        "A.",
+        "Lewis",
+        "M.",
+        "Dauphin",
+        "Y."
+      ],
+      "year": 2018,
+      "url": "https://arxiv.org/abs/1805.04833",
+      "verified": false
+    },
+    {
+      "key": "hugging-2020",
+      "type": "website",
+      "title": "How to generate text: using different decoding methods for language generation with Transformers",
+      "authors": [
+        "Hugging Face"
+      ],
+      "year": 2020,
+      "url": "https://huggingface.co/blog/how-to-generate",
+      "verified": false
+    },
+    {
+      "key": "nguyen-2024",
+      "type": "paper",
+      "title": "Turning Up the Heat: Min-p Sampling for Creative and Coherent LLM Outputs",
+      "authors": [
+        "Nguyen",
+        "M. et al."
+      ],
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2407.01082",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Temperature",
+      "anchor": "#temperature-controlling-randomness",
+      "definition": "A divisor of the logits that sharpens or flattens the output distribution."
+    },
+    {
+      "term": "Top-k sampling",
+      "anchor": "#top-k-sampling-controlling-diversity",
+      "definition": "Sampling only from the k most probable tokens."
+    },
+    {
+      "term": "Top-p sampling",
+      "anchor": "#top-p-sampling-nucleus-sampling-dynamic-control",
+      "definition": "Sampling from the smallest set of tokens whose probabilities reach p."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "Probabilities are 0.6, 0.25, 0.1, 0.05. Which tokens does top-p 0.8 keep?",
+      "a": "The first two (0.6 + 0.25 = 0.85).",
+      "anchor": "#top-p-sampling-nucleus-sampling-dynamic-control",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why can temperature 0 still give different outputs between runs?",
+      "a": "Nondeterministic floating point arithmetic and server-side batching.",
+      "anchor": "#temperature-controlling-randomness",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "inference-and-decoding"
+  }
+}

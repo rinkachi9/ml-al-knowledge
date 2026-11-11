@@ -1,0 +1,114 @@
+{
+  "node": {
+    "id": "generative-ai.prompt-engineering.prompt-engineering",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "generative-ai",
+      "prompt-engineering"
+    ],
+    "aliases": [
+      "prompting"
+    ]
+  },
+  "links": [
+    {
+      "to": "generative-ai.fundamentals.generative-ai",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "generative-ai.inference-and-decoding.sampling-parameters",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "schulhoff-2024",
+      "type": "paper",
+      "title": "The Prompt Report: A Systematic Survey of Prompting Techniques",
+      "authors": [
+        "Schulhoff",
+        "S. et al."
+      ],
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2406.06608",
+      "verified": false
+    },
+    {
+      "key": "openai-2025",
+      "type": "documentation",
+      "title": "Prompt engineering",
+      "authors": [
+        "OpenAI"
+      ],
+      "year": 2025,
+      "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+      "verified": false
+    },
+    {
+      "key": "anthropic-2025",
+      "type": "documentation",
+      "title": "Prompt engineering overview",
+      "authors": [
+        "Anthropic"
+      ],
+      "year": 2025,
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
+      "verified": false
+    },
+    {
+      "key": "raffel-2020",
+      "type": "paper",
+      "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+      "authors": [
+        "Raffel",
+        "C. et al."
+      ],
+      "year": 2020,
+      "url": "https://arxiv.org/abs/1910.10683",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Prompt",
+      "anchor": "#definition",
+      "definition": "The input text that conditions what a language model produces."
+    },
+    {
+      "term": "System prompt",
+      "anchor": "#anatomy-of-a-prompt",
+      "definition": "A message with stable instructions such as role, rules and format."
+    },
+    {
+      "term": "Task prefix",
+      "anchor": "#key-principles",
+      "definition": "A text prefix naming the task, such as 'Translate English to French:'."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is prompt engineering compared to software development?",
+      "a": "A prompt behaves like a program and must be tested on a set of cases and versioned.",
+      "anchor": "#the-iteration-loop",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "compare",
+      "q": "How does prompt engineering differ from fine-tuning?",
+      "a": "Prompting changes only the input; fine-tuning changes the model's weights.",
+      "anchor": "#definition",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "prompt-engineering"
+  }
+}

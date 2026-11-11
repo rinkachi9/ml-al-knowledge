@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "generative-ai.model-adaptation",
+    "kind": "index",
+    "status": "draft",
+    "order": 7,
+    "tags": [
+      "generative-ai",
+      "model-adaptation"
+    ]
+  },
+  "map": {
+    "group": "model-adaptation"
+  }
+}

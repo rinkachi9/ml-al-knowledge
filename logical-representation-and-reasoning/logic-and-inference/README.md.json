@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "logical-representation-and-reasoning.logic-and-inference",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "logical-representation-and-reasoning",
+      "logic-and-inference"
+    ]
+  },
+  "map": {
+    "group": "logic-and-inference"
+  }
+}

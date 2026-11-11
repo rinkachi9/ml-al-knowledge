@@ -1,0 +1,82 @@
+{
+  "node": {
+    "id": "agents-and-cognitive-systems.llm-agents.agent-use-cases",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 8,
+    "tags": [
+      "agents-and-cognitive-systems",
+      "llm-agents"
+    ]
+  },
+  "links": [
+    {
+      "to": "agents-and-cognitive-systems.llm-agents.llm-based-agents",
+      "rel": "example-of"
+    },
+    {
+      "to": "agents-and-cognitive-systems.llm-agents.tool-use",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "anthropic-2024",
+      "type": "website",
+      "title": "Building effective agents",
+      "authors": [
+        "Anthropic"
+      ],
+      "year": 2024,
+      "url": "https://www.anthropic.com/engineering/building-effective-agents",
+      "verified": false
+    },
+    {
+      "key": "jimenez-2024",
+      "type": "paper",
+      "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+      "authors": [
+        "Jimenez",
+        "C. et al."
+      ],
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2310.06770",
+      "verified": false
+    },
+    {
+      "key": "prometheus-2025",
+      "type": "documentation",
+      "title": "Prometheus documentation*](https://prometheus.io/docs/introduction/overview/) and Grafana Labs (2025). [*Grafana Loki documentation",
+      "authors": [
+        "Prometheus"
+      ],
+      "year": 2025,
+      "url": "https://grafana.com/docs/loki/latest/",
+      "verified": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "List the five steps of the DevSecOps agent flow.",
+      "a": "User query, retrieve logs, anomaly detection, correlate with deployments, suggest root cause.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why start with read-only agents?",
+      "a": "Mistakes cost time, not outages, and accuracy can be measured before automating.",
+      "anchor": "#common-mistakes",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "llm-agents"
+  }
+}

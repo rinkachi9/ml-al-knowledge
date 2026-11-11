@@ -1,0 +1,109 @@
+{
+  "node": {
+    "id": "machine-learning.optimization.loss-functions",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "machine-learning",
+      "optimization"
+    ],
+    "aliases": [
+      "cost function",
+      "objective function"
+    ]
+  },
+  "links": [
+    {
+      "to": "ai-foundations.what-is-ai.ai-model",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "machine-learning.fundamentals.features-and-labels",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "goodfellow-2016",
+      "type": "book",
+      "title": "Deep Learning",
+      "authors": [
+        "Goodfellow",
+        "I.",
+        "Bengio",
+        "Y.",
+        "Courville",
+        "A."
+      ],
+      "year": 2016,
+      "url": "https://www.deeplearningbook.org/",
+      "verified": false
+    },
+    {
+      "key": "murphy-2022",
+      "type": "book",
+      "title": "Probabilistic Machine Learning: An Introduction",
+      "authors": [
+        "Murphy",
+        "K."
+      ],
+      "year": 2022,
+      "url": "https://probml.github.io/pml-book/book1.html",
+      "verified": false
+    },
+    {
+      "key": "lin-2017",
+      "type": "paper",
+      "title": "Focal Loss for Dense Object Detection",
+      "authors": [
+        "Lin",
+        "T.-Y. et al."
+      ],
+      "year": 2017,
+      "url": "https://arxiv.org/abs/1708.02002",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Loss function",
+      "anchor": "#definition",
+      "definition": "A function measuring how far a prediction is from the actual value."
+    },
+    {
+      "term": "Mean squared error",
+      "anchor": "#mean-squared-error",
+      "definition": "The average squared difference between predictions and actual values."
+    },
+    {
+      "term": "Cross-entropy",
+      "anchor": "#cross-entropy",
+      "definition": "The negative log probability that the model assigns to the correct class."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "When is MAE preferable to MSE as a loss?",
+      "a": "When outliers should not dominate the fit, since MAE grows linearly with error.",
+      "anchor": "#mean-squared-error",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is cross-entropy preferred over MSE for classification with a sigmoid output?",
+      "a": "It gives strong gradients for confident wrong predictions, while MSE gives tiny ones.",
+      "anchor": "#common-mistakes",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "optimization"
+  }
+}

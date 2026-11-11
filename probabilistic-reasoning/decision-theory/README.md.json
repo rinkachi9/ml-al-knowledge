@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "probabilistic-reasoning.decision-theory",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "probabilistic-reasoning",
+      "decision-theory"
+    ]
+  },
+  "map": {
+    "group": "decision-theory"
+  }
+}

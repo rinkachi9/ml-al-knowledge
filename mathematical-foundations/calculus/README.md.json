@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "mathematical-foundations.calculus",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "mathematical-foundations",
+      "calculus"
+    ]
+  },
+  "map": {
+    "group": "calculus"
+  }
+}

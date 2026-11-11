@@ -1,0 +1,102 @@
+{
+  "node": {
+    "id": "ai-foundations.what-is-ai.ai-model",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 2,
+    "tags": [
+      "ai-foundations",
+      "what-is-ai"
+    ],
+    "aliases": [
+      "machine learning model"
+    ]
+  },
+  "links": [
+    {
+      "to": "ai-foundations.what-is-ai.artificial-intelligence",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "russell-2021",
+      "type": "book",
+      "title": "Artificial Intelligence: A Modern Approach, 4th edition",
+      "authors": [
+        "Russell",
+        "S.",
+        "Norvig",
+        "P."
+      ],
+      "year": 2021,
+      "url": "https://aima.cs.berkeley.edu/",
+      "verified": false
+    },
+    {
+      "key": "mitchell-2019",
+      "type": "paper",
+      "title": "Model Cards for Model Reporting",
+      "authors": [
+        "Mitchell",
+        "M. et al."
+      ],
+      "year": 2019,
+      "url": "https://arxiv.org/abs/1810.03993",
+      "verified": false
+    },
+    {
+      "key": "bommasani-2021",
+      "type": "paper",
+      "title": "On the Opportunities and Risks of Foundation Models",
+      "authors": [
+        "Bommasani",
+        "R. et al."
+      ],
+      "year": 2021,
+      "url": "https://arxiv.org/abs/2108.07258",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Parameter",
+      "anchor": "#parameters-and-hyperparameters",
+      "definition": "A value learned by the training algorithm, such as a weight."
+    },
+    {
+      "term": "Hyperparameter",
+      "anchor": "#parameters-and-hyperparameters",
+      "definition": "A setting chosen before or during training that is not learned from the gradient, such as the learning rate."
+    },
+    {
+      "term": "Inference",
+      "anchor": "#training-and-inference",
+      "definition": "Applying a trained model's fixed parameters to a new input."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why is temperature not a model parameter?",
+      "a": "It is an inference setting that changes how output is sampled; it changes no learned weight.",
+      "anchor": "#parameters-and-hyperparameters",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "How much memory do the weights of a 13 billion parameter model need in 16-bit precision?",
+      "a": "About 26 GB (13 x 10^9 x 2 bytes).",
+      "anchor": "#parameters-and-hyperparameters",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "what-is-ai"
+  }
+}

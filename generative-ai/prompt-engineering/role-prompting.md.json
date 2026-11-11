@@ -1,0 +1,82 @@
+{
+  "node": {
+    "id": "generative-ai.prompt-engineering.role-prompting",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 5,
+    "tags": [
+      "generative-ai",
+      "prompt-engineering"
+    ],
+    "aliases": [
+      "persona prompting",
+      "role and perspective"
+    ]
+  },
+  "links": [
+    {
+      "to": "generative-ai.prompt-engineering.prompt-engineering",
+      "rel": "part-of"
+    },
+    {
+      "to": "generative-ai.prompt-engineering.personalization",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "zheng-2024",
+      "type": "paper",
+      "title": "Is \"A Helpful Assistant\" the Best Role for Large Language Models? A Systematic Evaluation of Social Roles in System Prompts",
+      "authors": [
+        "Zheng",
+        "M. et al."
+      ],
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2311.10054",
+      "verified": false
+    },
+    {
+      "key": "anthropic-2025",
+      "type": "documentation",
+      "title": "Giving Claude a role with a system prompt",
+      "authors": [
+        "Anthropic"
+      ],
+      "year": 2025,
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/system-prompts",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Role prompting",
+      "anchor": "#definition",
+      "definition": "Assigning the model a role, persona or point of view to shape its answers."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "What are the three levers of role prompting?",
+      "a": "Role definition, contextual instructions and iterative feedback.",
+      "anchor": "#the-three-levers",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Does an expert persona make answers more accurate?",
+      "a": "Not reliably; studies found no consistent accuracy gain. It mainly changes style and focus.",
+      "anchor": "#kinds-of-roles",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "prompt-engineering"
+  }
+}

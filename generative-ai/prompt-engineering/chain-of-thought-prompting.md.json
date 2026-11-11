@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "generative-ai.prompt-engineering.chain-of-thought-prompting",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "generative-ai",
+      "prompt-engineering"
+    ],
+    "aliases": [
+      "CoT"
+    ]
+  },
+  "links": [
+    {
+      "to": "generative-ai.prompt-engineering.prompt-engineering",
+      "rel": "part-of"
+    },
+    {
+      "to": "generative-ai.prompt-engineering.multi-turn-conversation-context",
+      "rel": "contrasts"
+    }
+  ],
+  "sources": [
+    {
+      "key": "wei-2022",
+      "type": "paper",
+      "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+      "authors": [
+        "Wei",
+        "J. et al."
+      ],
+      "year": 2022,
+      "url": "https://arxiv.org/abs/2201.11903",
+      "verified": false
+    },
+    {
+      "key": "kojima-2022",
+      "type": "paper",
+      "title": "Large Language Models are Zero-Shot Reasoners",
+      "authors": [
+        "Kojima",
+        "T. et al."
+      ],
+      "year": 2022,
+      "url": "https://arxiv.org/abs/2205.11916",
+      "verified": false
+    },
+    {
+      "key": "wang-2023",
+      "type": "paper",
+      "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+      "authors": [
+        "Wang",
+        "X. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2203.11171",
+      "verified": false
+    },
+    {
+      "key": "turpin-2023",
+      "type": "paper",
+      "title": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+      "authors": [
+        "Turpin",
+        "M. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2305.04388",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Chain of thought",
+      "anchor": "#definition",
+      "definition": "A series of intermediate reasoning steps written before the final answer."
+    },
+    {
+      "term": "Self-consistency",
+      "anchor": "#variants",
+      "definition": "Sampling several reasoning chains and taking the majority answer."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "explain",
+      "q": "Why does writing reasoning steps help a transformer?",
+      "a": "It spreads the computation over many tokens, each conditioned on the previous steps.",
+      "anchor": "#why-it-works",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why is chain-of-thought text not an audit trail?",
+      "a": "Stated reasoning can differ from what actually produced the answer.",
+      "anchor": "#trade-offs-and-when-to-use-it",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "prompt-engineering"
+  }
+}

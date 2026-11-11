@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "knowledge-representation-and-reasoning.types-of-representation",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "knowledge-representation-and-reasoning",
+      "types-of-representation"
+    ]
+  },
+  "map": {
+    "group": "types-of-representation"
+  }
+}

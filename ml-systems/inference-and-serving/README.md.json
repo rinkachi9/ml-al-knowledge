@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "ml-systems.inference-and-serving",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "ml-systems",
+      "inference-and-serving"
+    ]
+  },
+  "map": {
+    "group": "inference-and-serving"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "logical-representation-and-reasoning.advanced-reasoning",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "logical-representation-and-reasoning",
+      "advanced-reasoning"
+    ]
+  },
+  "map": {
+    "group": "advanced-reasoning"
+  }
+}

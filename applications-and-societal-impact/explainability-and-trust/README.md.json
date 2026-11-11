@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "applications-and-societal-impact.explainability-and-trust",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "applications-and-societal-impact",
+      "explainability-and-trust"
+    ]
+  },
+  "map": {
+    "group": "explainability-and-trust"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "robotics.robot-perception",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "robotics",
+      "robot-perception"
+    ]
+  },
+  "map": {
+    "group": "robot-perception"
+  }
+}

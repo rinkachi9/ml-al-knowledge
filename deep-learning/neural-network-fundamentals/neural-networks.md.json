@@ -1,0 +1,126 @@
+{
+  "node": {
+    "id": "deep-learning.neural-network-fundamentals.neural-networks",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "deep-learning",
+      "neural-network-fundamentals"
+    ],
+    "aliases": [
+      "ANN",
+      "artificial neural network",
+      "multilayer perceptron"
+    ]
+  },
+  "links": [
+    {
+      "to": "machine-learning.fundamentals.machine-learning",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "machine-learning.learning-paradigms.supervised-learning",
+      "rel": "extends"
+    }
+  ],
+  "sources": [
+    {
+      "key": "goodfellow-2016",
+      "type": "book",
+      "title": "Deep Learning",
+      "authors": [
+        "Goodfellow",
+        "I.",
+        "Bengio",
+        "Y.",
+        "Courville",
+        "A."
+      ],
+      "year": 2016,
+      "url": "https://www.deeplearningbook.org/",
+      "verified": false
+    },
+    {
+      "key": "lecun-2015",
+      "type": "paper",
+      "title": "Deep learning",
+      "authors": [
+        "LeCun",
+        "Y.",
+        "Bengio",
+        "Y.",
+        "Hinton",
+        "G."
+      ],
+      "year": 2015,
+      "url": "https://doi.org/10.1038/nature14539",
+      "verified": false
+    },
+    {
+      "key": "prince-2023",
+      "type": "book",
+      "title": "Understanding Deep Learning",
+      "authors": [
+        "Prince",
+        "S."
+      ],
+      "year": 2023,
+      "url": "https://udlbook.github.io/udlbook/",
+      "verified": false
+    },
+    {
+      "key": "cybenko-1989",
+      "type": "paper",
+      "title": "Approximation by superpositions of a sigmoidal function",
+      "authors": [
+        "Cybenko",
+        "G."
+      ],
+      "year": 1989,
+      "url": "https://doi.org/10.1007/BF02551274",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Artificial neuron",
+      "anchor": "#the-artificial-neuron",
+      "definition": "A unit that computes a weighted sum of inputs plus a bias and applies an activation function."
+    },
+    {
+      "term": "Hidden layer",
+      "anchor": "#layers",
+      "definition": "A layer between input and output that transforms its input with weights and activations."
+    },
+    {
+      "term": "Universal approximation theorem",
+      "anchor": "#why-nonlinearity-and-depth-matter",
+      "definition": "One hidden layer of enough width can approximate any continuous function on a bounded domain."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "How many parameters does a dense layer from 100 inputs to 10 outputs have?",
+      "a": "1,010 (1,000 weights and 10 biases).",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why are LLMs not a separate kind of architecture?",
+      "a": "They are very large transformers trained to predict the next token.",
+      "anchor": "#types-of-neural-networks",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "neural-network-fundamentals"
+  }
+}

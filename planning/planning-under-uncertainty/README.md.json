@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "planning.planning-under-uncertainty",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "planning",
+      "planning-under-uncertainty"
+    ]
+  },
+  "map": {
+    "group": "planning-under-uncertainty"
+  }
+}

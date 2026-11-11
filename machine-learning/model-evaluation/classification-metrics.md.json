@@ -1,0 +1,107 @@
+{
+  "node": {
+    "id": "machine-learning.model-evaluation.classification-metrics",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "machine-learning",
+      "model-evaluation"
+    ],
+    "aliases": [
+      "confusion matrix",
+      "precision and recall"
+    ]
+  },
+  "links": [
+    {
+      "to": "machine-learning.learning-paradigms.supervised-learning",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "machine-learning.model-evaluation.training-validation-and-test-data",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "fawcett-2006",
+      "type": "paper",
+      "title": "An introduction to ROC analysis",
+      "authors": [
+        "Fawcett",
+        "T."
+      ],
+      "year": 2006,
+      "url": "https://doi.org/10.1016/j.patrec.2005.10.010",
+      "verified": false
+    },
+    {
+      "key": "saito-2015",
+      "type": "paper",
+      "title": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets",
+      "authors": [
+        "Saito",
+        "T.",
+        "Rehmsmeier",
+        "M."
+      ],
+      "year": 2015,
+      "url": "https://doi.org/10.1371/journal.pone.0118432",
+      "verified": false
+    },
+    {
+      "key": "powers-2011",
+      "type": "paper",
+      "title": "Evaluation: From Precision, Recall and F-Measure to ROC, Informedness, Markedness and Correlation",
+      "authors": [
+        "Powers",
+        "D."
+      ],
+      "year": 2011,
+      "url": "https://arxiv.org/abs/2010.16061",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Precision",
+      "anchor": "#metrics",
+      "definition": "The share of predicted positives that are actually positive."
+    },
+    {
+      "term": "Recall",
+      "anchor": "#metrics",
+      "definition": "The share of actual positives that the model found."
+    },
+    {
+      "term": "Confusion matrix",
+      "anchor": "#the-confusion-matrix",
+      "definition": "A table of true and predicted classes counting every kind of outcome."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "apply",
+      "q": "TP = 30, FP = 10, FN = 30. Compute precision and recall.",
+      "a": "Precision 0.75, recall 0.5.",
+      "anchor": "#metrics",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "What is the accuracy paradox?",
+      "a": "On imbalanced data a useless majority-class model can score high accuracy.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "model-evaluation"
+  }
+}

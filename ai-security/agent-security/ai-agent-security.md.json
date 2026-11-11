@@ -1,0 +1,129 @@
+{
+  "node": {
+    "id": "ai-security.agent-security.ai-agent-security",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 1,
+    "tags": [
+      "ai-security",
+      "agent-security"
+    ]
+  },
+  "links": [
+    {
+      "to": "agents-and-cognitive-systems.llm-agents.llm-based-agents",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "ai-security.prompt-attacks.prompt-injection",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "agents-and-cognitive-systems.llm-agents.execution-environments",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "owasp-2025",
+      "type": "standard",
+      "title": "OWASP Top 10 for LLM Applications 2025",
+      "authors": [
+        "OWASP"
+      ],
+      "year": 2025,
+      "url": "https://genai.owasp.org/llm-top-10/",
+      "verified": false
+    },
+    {
+      "key": "owasp-2025-2",
+      "type": "standard",
+      "title": "Agentic AI: Threats and Mitigations",
+      "authors": [
+        "OWASP"
+      ],
+      "year": 2025,
+      "url": "https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/",
+      "verified": false
+    },
+    {
+      "key": "mitre-2025",
+      "type": "standard",
+      "title": "ATLAS",
+      "authors": [
+        "MITRE"
+      ],
+      "year": 2025,
+      "url": "https://atlas.mitre.org/",
+      "verified": false
+    },
+    {
+      "key": "nist-2024",
+      "type": "paper",
+      "title": "Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations (NIST AI 100-2 E2023)",
+      "authors": [
+        "NIST"
+      ],
+      "year": 2024,
+      "url": "https://doi.org/10.6028/NIST.AI.100-2e2023",
+      "verified": false
+    },
+    {
+      "key": "openssf-2025",
+      "type": "standard",
+      "title": "SLSA: Supply-chain Levels for Software Artifacts",
+      "authors": [
+        "OpenSSF"
+      ],
+      "year": 2025,
+      "url": "https://slsa.dev/",
+      "verified": false
+    },
+    {
+      "key": "shostack-2014",
+      "type": "book",
+      "title": "Threat Modeling: Designing for Security",
+      "authors": [
+        "Shostack",
+        "A."
+      ],
+      "year": 2014
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Least privilege",
+      "anchor": "#threats-and-mitigations",
+      "definition": "Giving a component only the permissions its task needs."
+    },
+    {
+      "term": "Policy engine",
+      "anchor": "#minimal-secure-architecture",
+      "definition": "A component that deterministically allows or denies proposed actions."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the five agent threats in the threat table.",
+      "a": "Prompt injection, data exfiltration, tool abuse, supply chain risks, model manipulation.",
+      "anchor": "#threats-and-mitigations",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "apply",
+      "q": "Map 'agent loops over expensive queries' to STRIDE and a control.",
+      "a": "Denial of service; step, time and cost limits and rate limits.",
+      "anchor": "#worked-example",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "agent-security"
+  }
+}

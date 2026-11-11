@@ -1,0 +1,116 @@
+{
+  "node": {
+    "id": "ai-foundations.what-is-ai.artificial-intelligence",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "ai-foundations",
+      "what-is-ai"
+    ],
+    "aliases": [
+      "AI"
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "key": "russell-2021",
+      "type": "book",
+      "title": "Artificial Intelligence: A Modern Approach, 4th edition",
+      "authors": [
+        "Russell",
+        "S.",
+        "Norvig",
+        "P."
+      ],
+      "year": 2021,
+      "url": "https://aima.cs.berkeley.edu/",
+      "verified": false
+    },
+    {
+      "key": "mccarthy-1955",
+      "type": "website",
+      "title": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
+      "authors": [
+        "McCarthy",
+        "J.",
+        "Minsky",
+        "M.",
+        "Rochester",
+        "N.",
+        "Shannon",
+        "C."
+      ],
+      "year": 1955,
+      "url": "http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf",
+      "verified": false
+    },
+    {
+      "key": "turing-1950",
+      "type": "paper",
+      "title": "Computing Machinery and Intelligence",
+      "authors": [
+        "Turing",
+        "A."
+      ],
+      "year": 1950,
+      "url": "https://doi.org/10.1093/mind/LIX.236.433",
+      "verified": false
+    },
+    {
+      "key": "acm-2024",
+      "type": "standard",
+      "title": "Computer Science Curricula 2023",
+      "authors": [
+        "ACM",
+        "IEEE-CS",
+        "AAAI"
+      ],
+      "year": 2024,
+      "url": "https://csed.acm.org/",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Rational agent",
+      "anchor": "#definition",
+      "definition": "A system that selects the action expected to maximize its performance measure given what it perceives and knows."
+    },
+    {
+      "term": "Symbolic AI",
+      "anchor": "#symbolic-and-subsymbolic-ai",
+      "definition": "AI that represents knowledge explicitly with symbols, rules and logic."
+    },
+    {
+      "term": "Narrow AI",
+      "anchor": "#narrow-and-general-ai",
+      "definition": "AI that solves one task or a bounded family of tasks."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "compare",
+      "q": "How do symbolic and subsymbolic AI differ in how they store knowledge?",
+      "a": "Symbolic AI stores it explicitly as rules and logic; subsymbolic AI stores it implicitly in learned numeric parameters.",
+      "anchor": "#symbolic-and-subsymbolic-ai",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "recall",
+      "q": "Which two axes does Russell and Norvig's classification of AI definitions use?",
+      "a": "Thinking versus behavior, and human performance versus rationality.",
+      "anchor": "#definition",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "what-is-ai"
+  }
+}

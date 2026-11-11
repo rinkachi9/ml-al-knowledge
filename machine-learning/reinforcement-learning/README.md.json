@@ -1,0 +1,15 @@
+{
+  "node": {
+    "id": "machine-learning.reinforcement-learning",
+    "kind": "index",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "machine-learning",
+      "reinforcement-learning"
+    ]
+  },
+  "map": {
+    "group": "reinforcement-learning"
+  }
+}

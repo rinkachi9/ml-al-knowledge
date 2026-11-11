@@ -1,0 +1,125 @@
+{
+  "node": {
+    "id": "agents-and-cognitive-systems.multi-agent-systems.multi-agent-systems",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "agents-and-cognitive-systems",
+      "multi-agent-systems"
+    ],
+    "aliases": [
+      "MAS",
+      "agent swarms"
+    ]
+  },
+  "links": [
+    {
+      "to": "agents-and-cognitive-systems.agent-fundamentals.ai-agent",
+      "rel": "extends"
+    },
+    {
+      "to": "agents-and-cognitive-systems.agent-fundamentals.agent-types",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "wooldridge-2009",
+      "type": "book",
+      "title": "An Introduction to MultiAgent Systems, 2nd edition",
+      "authors": [
+        "Wooldridge",
+        "M."
+      ],
+      "year": 2009
+    },
+    {
+      "key": "wu-2023",
+      "type": "paper",
+      "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+      "authors": [
+        "Wu",
+        "Q. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2308.08155",
+      "verified": false
+    },
+    {
+      "key": "du-2023",
+      "type": "paper",
+      "title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+      "authors": [
+        "Du",
+        "Y. et al."
+      ],
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2305.14325",
+      "verified": false
+    },
+    {
+      "key": "anthropic-2025",
+      "type": "website",
+      "title": "How we built our multi-agent research system",
+      "authors": [
+        "Anthropic"
+      ],
+      "year": 2025,
+      "url": "https://www.anthropic.com/engineering/multi-agent-research-system",
+      "verified": false
+    },
+    {
+      "key": "dorigo-2006",
+      "type": "paper",
+      "title": "Ant colony optimization",
+      "authors": [
+        "Dorigo",
+        "M.",
+        "Birattari",
+        "M.",
+        "Stützle",
+        "T."
+      ],
+      "year": 2006,
+      "url": "https://doi.org/10.1109/MCI.2006.329691",
+      "verified": false
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Multi-agent system",
+      "anchor": "#definition",
+      "definition": "A system of several autonomous agents whose outcome depends on their interaction."
+    },
+    {
+      "term": "Agent swarm",
+      "anchor": "#agent-swarms",
+      "definition": "Many simple agents whose collective behavior emerges from local rules."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "recall",
+      "q": "Name the three multi-agent patterns.",
+      "a": "Collaborative, competitive and hierarchical.",
+      "anchor": "#patterns",
+      "origin": "ai",
+      "reviewed": false
+    },
+    {
+      "id": "q2",
+      "type": "explain",
+      "q": "Why treat messages from other agents as untrusted?",
+      "a": "A compromised or injected agent can instruct the others.",
+      "anchor": "#common-mistakes",
+      "origin": "ai",
+      "reviewed": false
+    }
+  ],
+  "map": {
+    "group": "multi-agent-systems"
+  }
+}
